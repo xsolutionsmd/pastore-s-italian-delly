@@ -4,7 +4,7 @@
 
 Selected reference: [Maman home](https://mamannyc.com/), [catering](https://mamannyc.com/catering) and [Soho menu](https://mamannyc.com/locations/soho), inspected 18 October 2026. The coordinator supplied desktop 1440×1000 and phone 390×844 captures and observed navigation/menu flows. The implementation specialist also inspected the live home/catering through T3 and viewed all five supplied reference captures. These are ordinary browser observations.
 
-The required dedicated REA browser startup was rejected by automatic execution review before execution (`rejected: blocked by policy`). No REA Evidence ID, passive capture or runtime reconciliation was produced. The original implementation is runnable, but REA acceptance remains unresolved. Reference server rules, private code and inaccessible transaction states remain unknown. The coordinator retains captures and interaction evidence outside this public repository.
+The dedicated REA browser startup was unavailable. No REA Evidence ID, passive capture or runtime reconciliation was produced. On 18 October 2026 the project owner explicitly accepted the completed browser-based reconstruction evidence and authorized continuation through refinement, deployment and live review. This is a scoped method exception for Pastore's; it is not a claim that REA ran. Reference server rules, private code and inaccessible transaction states remain unknown. The coordinator retains captures and interaction evidence outside this public repository.
 
 ## Observed reference structure
 
