@@ -192,11 +192,24 @@
       "status": "pending"
     },
     "delivery": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T18:22:29.647424+00:00",
+      "workflow_version": 2,
+      "owner": "sol-high",
+      "task_id": "node:delegated-task:command%3Amcp%3Adfb4922b-3fab-4660-ac9d-f6673906b9c9%3Adelegate-task%3Apastores-final-20261018-r1",
+      "prerequisites": {
+        "assets": "2026-10-18T14:53:02.223511+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Current canonical gallery-inclusive ZIP delivered once as explicit replacement in original first-live thread; persisted file F0CA826UVLH and message p1792347597050559 read after reload, browser-downloaded bytes14380277 SHA73f8bfd2 match; XA delivery receipt and slack-media-final.png. Earlier ZIP+sidecar retained as superseded history."
+      ]
     },
     "final-handoff": {
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T16:31:16.869812+00:00"
+  "updated": "2026-10-18T18:22:29.673931+00:00"
 }

@@ -73,3 +73,14 @@ protection. Initial histories correctly contained one successful managed release
 each; no image deletion was eligible. These images and same-server configuration
 copies are not independent disaster backups. No reboot or destructive fault test
 was performed.
+
+## Subsequent bootstrap retirement ? 18 October 2026
+
+After current and previous managed recovery references were verified, the obsolete
+first-publish image and bootstrap rollback set were retired by exact identity.
+Original bootstrap files were recycled to verified server Trash. The normal
+Compose `.env` is now a relative symlink to managed `release.env`; the active
+container was preserved. The earlier bootstrap-retention paragraph is historical.
+No additional server cleanup or recovery mutation is authorized under the current
+shared-host release hold. Managed image retention continues under its existing
+current/history and observation-grace policy.
