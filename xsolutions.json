@@ -234,5 +234,30 @@
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T19:36:11.968510+00:00"
+  "updated": "2026-10-18T19:36:11.968510+00:00",
+  "current_summary": {
+    "as_of": "2026-10-18",
+    "normal_workflow": "complete; accepted normal product and final delivery",
+    "normal_revision": "fa503f35914be145ce87d20c28e58967d0054c01",
+    "derek_menu_photos": {
+      "reviewed_revision": "4dbb120c9bafc7ca34e6539e2bb214427e1b1aab",
+      "environment": "derek-dev",
+      "url": "https://d-pastores.xsolutionsmd.com/menu/",
+      "product_validation": "accepted independent 67-case review and fresh 10-case recheck; no findings; no-change fixes",
+      "menu_rows": 147,
+      "categories": 17,
+      "photo_rows": 72,
+      "authentic_food_originals": 49,
+      "webp_derivatives": 50,
+      "webp_bytes": 1217538,
+      "confirmed_rows": 55,
+      "likely_rows": 17,
+      "photo_gaps": 75,
+      "dish_groups_covered": 50,
+      "dish_groups_total": 98,
+      "branch_boundary": "Derek only; main and abdul-dev retain accepted text-only item menu",
+      "final_acceptance": "coordinator inspection of final documentation release and persisted delivery receipts"
+    },
+    "stage_record_note": "Historical stage entries are retained as originally recorded; this summary and kb/HANDOFF.md describe the current accepted product. Private coordinator receipts own acceptance."
+  }
 }

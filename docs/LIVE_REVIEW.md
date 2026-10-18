@@ -50,3 +50,35 @@ failures and protected checks remain binding. No app/runtime changes require a
 new product review. No physical Safari/Android review, full screen-reader audit, fresh OS
 preference emulation or blanket clean-console pass is claimed. Earlier transient
 access failures and their unknown cause remain documented.
+
+
+## Derek-only menu-photo review - 18 October 2026
+
+Reviewed product: `4dbb120c9bafc7ca34e6539e2bb214427e1b1aab`, at
+https://d-pastores.xsolutionsmd.com/menu/. Production and Abdul remain at the
+accepted normal revision `fa503f35914be145ce87d20c28e58967d0054c01` with a
+text-only item menu. Preserve this intentional branch difference.
+
+The independent Sol review passed 67 cases at desktop 1280px and mobile 390/320px,
+including doubled computed text, category/history/navigation behavior and controls
+inside their containing cards. All 72 displayed photo associations and 50 final
+crops were checked against existing provenance; no actionable findings remained.
+Astra verified the unchanged release and recorded no corrections. A fresh
+independent Sol spot recheck then passed ten desktop/mobile cases at the same
+revision, including final ravioli/dessert crops, serving captions, transparent
+cutout rendering and category-select containment. The coordinator accepted both
+reviews; final release/delivery acceptance remains a separate coordinator action.
+
+The 147 rows and 17 categories retain their source facts and ordering links.
+Photos cover 72 rows using 49 authentic food originals and 50 optimized WebP
+derivatives (1,217,538 bytes); 75 rows retain honest gaps. Of the photo associations,
+55 are confirmed and 17 remain likely, with supporting reasons and representative
+serving captions retained. This is 50 of 98 distinct dish groups, not 72 unique
+dishes or exact-SKU confirmations. Hero/interior imagery is excluded from coverage.
+
+Live product checks passed all five routes, 65 assets, exact revision, health,
+noindex and branded/missing-asset 404 behavior. The later documentation-only release
+reuses these accepted visual/interaction results only after exact source parity
+is verified. Its live SHA and final HTTP/CI results are kept in private receipts.
+No repeat exhaustive review, fresh OS reduced-motion emulation, physical-device,
+full screen-reader, full-animation or transaction testing is claimed.

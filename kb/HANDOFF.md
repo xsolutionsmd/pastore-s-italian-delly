@@ -1,108 +1,44 @@
 # Pastore's Italian Delly handoff
 
-## Current state ? 18 October 2026
+## Current state — 18 October 2026
 
-The normal five-page website's product recheck is accepted. Derek's direct
-18 October resumption supersedes the abandoned advisory dispatcher-grant wait.
-All three environments passed the bounded home, health and uncached-version
-checks at 19:18 UTC, serving the revision below. This is current evidence for this
-handoff, not a permanent recovery claim for the earlier intermittent host issue.
-Application/runtime source remains unchanged. Final documentation publication
-uses the existing protected PR/CI path and authorized initial three-environment
-sync. Actual health failures, technical deployment locks and required checks bind.
-No shared-host repair, restart or broad probing is part of this task.
+The normal five-page website is complete. Derek's preview additionally contains the authorized menu-photo variation. Production and Abdul retain the accepted text-only item menu. Preserve that deliberate branch difference; do not merge the photo variation into main or abdul-dev during later synchronization.
 
-| Environment | URL | Last verified source revision |
+| Environment | URL | Verified product revision |
 |---|---|---|
-| Production | https://pastores.xsolutionsmd.com | `1a6633b375a0c4bab2f7cdd047c186bb60783b80` |
-| Derek | https://d-pastores.xsolutionsmd.com | `1a6633b375a0c4bab2f7cdd047c186bb60783b80` |
-| Abdul | https://a-pastores.xsolutionsmd.com | `1a6633b375a0c4bab2f7cdd047c186bb60783b80` |
+| Production | https://pastores.xsolutionsmd.com | `fa503f35914be145ce87d20c28e58967d0054c01` |
+| Derek | https://d-pastores.xsolutionsmd.com | `4dbb120c9bafc7ca34e6539e2bb214427e1b1aab` |
+| Abdul | https://a-pastores.xsolutionsmd.com | `fa503f35914be145ce87d20c28e58967d0054c01` |
 
-Repository: https://github.com/xsolutionsmd/pastore-s-italian-delly.
-[PR1](https://github.com/xsolutionsmd/pastore-s-italian-delly/pull/1) established
-managed infrastructure; [PR2](https://github.com/xsolutionsmd/pastore-s-italian-delly/pull/2)
-released corrections. Both merged. Corrective product commit:
-`a66657653293a88608577280cf673e00e5ccc661`; merged revision is the table above.
-All six workflows for that merge completed successfully: production 39150006316,
-Derek 39150041624, Abdul 39150041225, CI 39150006278/39150041549/39150041277.
-Independent all-three HTTPS/source parity is dated 17:44:25 UTC. The earlier bounded production version check passed at 17:53:37 UTC; the shared failure's underlying cause remains unknown. The current company-only check above
-supersedes the dated availability snapshot.
+Repository: https://github.com/xsolutionsmd/pastore-s-italian-delly. Protected PR3 published the normal final documentation. The Derek photo release passed Application CI 39160383600 and release 39160383646. This handoff may be published at a later documentation-only revision; the private final release receipt records that exact branch/runtime SHA and source parity with the reviewed product.
 
-## Accepted product and evidence
+## Accepted product and validation
 
-Home, Menu, Catering, Our Story and Visit are separate pages in the existing Vite
-static stack. The inspected Maman reference supplies editorial layout and a text
-menu. All three normal environments retain 147 current Toast prepared-food
-purchase rows in 17 groups, including bread/serving variants, not 147 unique dishes.
-Toast remains the ordering/payment authority; catering uses the verified phone and
-directions use the verified address. No custom checkout, forms, payment or admin.
-No customer transactions, calls or outreach were performed.
+Home, Menu, Catering, Our Story and Visit remain separate pages in the existing Vite static stack. All 147 current Toast purchase rows, 17 categories, names, prices, order links and ordering are preserved. Toast handles orders/payment; catering uses the verified phone and directions use the verified address. No custom checkout, form or admin was added, and no transactions, calls or client outreach were performed.
 
-Sol reconstructed the populated reference, Claude Opus 5.5 High refined the
-existing frontend, and Astra implemented accepted review corrections. REA was
-unavailable after a bounded attempt. Ordinary rendered browser/DOM evidence was
-accepted under Derek's correction; no REA execution is claimed. No Stitch or Reticle.
+The inspected Maman reference and accepted company design remain intact. Sol reconstructed the populated frontend, Claude Opus 5.5 High refined it, and Astra resolved the normal review findings. REA was unavailable after a bounded attempt; browser/DOM evidence was used under Derek's correction. No Stitch or Reticle was used. The normal recheck accepted 31 current product cases plus explicitly reused prior reduced-motion evidence for unchanged rules.
 
-The independent review found lost navigation reading position, narrow enlarged-text
-dialog overflow and unbranded missing routes. All three are resolved in the accepted
-live recheck: 31 current product passes plus explicitly reused prior actual Chrome
-CDP reduced-motion evidence for unchanged rules. Four diagnostic attempts remain
-preserved with supported dispositions. See [LIVE_REVIEW](../docs/LIVE_REVIEW.md).
-No fresh OS preference emulation, physical Safari/Android, full screen-reader audit
-or blanket clean-console pass is claimed.
+For the Derek variation, live checks passed all five routes, 65 assets, health, exact revision, preview noindex and branded 404. Independent Sol review passed 67 cases across desktop, 390px and 320px mobile widths, and doubled computed text. It checked all 72 displayed photo associations and 50 final crops, with no actionable findings. Astra verified the unchanged deployed revision rather than making an empty correction commit. The fresh independent Sol spot recheck passed ten desktop/mobile cases at the same revision, with no findings; the coordinator accepted it on 18 October. The final documentation/release and delivery receipts remain subject to coordinator inspection and scoped final acceptance.
 
-## Media and delivery
+There is no physical Safari/Android or full screen-reader audit, fresh OS reduced-motion emulation or blanket console-clean claim. Doubled text means computed font/line-height enlargement, not native browser zoom. Exact evidence and diagnostic dispositions remain in the private review records and [live review](../docs/LIVE_REVIEW.md).
 
-The canonical private library contains 51 originals (50 images and one historical
-menu PDF), 13,735,326 bytes, with hashes, provenance and source coverage. All required
-source families were checked once. The 147-row index has 50 matched, 91 missing-photo
-and six uncertain rows; 98 distinct dish groups have 38 matched, 58 missing and two
-uncertain. Six Whole Geno bread/lasagna mappings remain unsupported and omitted.
-No authentic platter photo was acquired; food examples retain actual dish labels.
-[Media](media.md) records selected production copies and crops. The private index,
-readable gallery, CSV, current package and delivery receipts belong with the library.
+## Photos, provenance and gaps
 
-First-live Slack delivery exists and must not be repeated:
-https://sidehustle2026.slack.com/archives/C0C0J6RB8KT/p1792339094499809.
-The maintained [Website URLs](https://sidehustle2026.slack.com/archives/C0C0J6RB8KT/p1792340168382469)
-message already contains all three exact URLs. Its final check is read-only;
-unchanged URLs require no directory edit. The final verified reply and media
-delivery require persisted receipts. Final acceptance belongs to the coordinator.
+Derek displays photos on 72 of 147 menu rows, covering 50 of 98 distinct dish groups. Those associations use 49 authentic original food photos rendered as 50 optimized WebP crops totaling 1,217,538 bytes. Seventy-five rows remain without a sufficiently supported photo. There are 55 confirmed and 17 likely row associations; confidence and reasons are retained in provenance. Bread, portion and other supported serving variants carry representative captions where material. Photos do not establish exact ingredients or dietary suitability.
 
-## Remaining work and boundaries
+The full existing image library and all six formerly uncertain rows were reassessed. Focused collection added six authentic originals from the business's Instagram and matching Yelp location. Required source families retain their documented partial/unavailable limits; no exhaustive claim is made for every post, carousel or review. Generic interiors, logos and hero imagery do not count as item coverage. The final ravioli crop excludes the beverage edge. Public mapping: `app/src/menu-photos.json`; [media](media.md) describes the library and selected assets.
 
-Media delivery is verified in the original first-live thread:
-https://sidehustle2026.slack.com/archives/C0C0J6RB8KT/p1792347597050559.
-The current ZIP includes all 51 originals, provenance and the readable menu gallery.
-Final-owner work revalidates that existing delivery, publishes these documentation
-corrections through protected CI and verifies the resulting environment revisions.
-The final normal URL reply goes in the existing first-live thread with the directory,
-preview and repository links. Persisted send/readback and exact release evidence
-remain in private final-handoff records for coordinator inspection and acceptance.
-No media resend or directory edit is needed for unchanged URLs.
+The expanded private library contains 57 originals (56 images and one historical PDF), with hashes, provenance, menu index and readable gallery. Its 15,104,145-byte package was delivered and independently downloaded/hash-verified once.
+The earlier package remains a distinct historical delivery; neither needs resending.
 
-The LAST Derek-only menu-photo variation is separate work after coordinator
-acceptance of normal final handoff. It remains pending. Never propagate it to main
-or Abdul or claim the entire original request is finished before it passes.
-Keep the accepted design, actual company assets, at most two font families,
-no decorative numbering and card/control containment.
+## Delivery and maintenance
 
-## Cleanup and retention
+Final team delivery updates the existing site reply and verifies the maintained URL directory without changing the three URLs. Persisted message readback, exact documentation release revision and current availability belong in the private final receipts; they are verified after this documentation commit is released. Overall scoped acceptance belongs to the coordinator.
 
-Earlier disposable local test containers, images, networks and synthetic volumes
-were removed; owned previews/tabs were closed. Retain canonical originals,
-provenance and accepted evidence for delivery/continuity. Keep app dependencies,
-dist, three contact sheets and the recorded 11 own cache candidates for the imminent
-LAST Derek photo build; recheck then, preserving shared dependencies/tool homes.
-No ad-hoc server cleanup is included in this task. The obsolete bootstrap image/rollback set
-was retired after managed recovery verification; bootstrap files are recoverable
-in server Trash. The relative `.env` symlink targets current `release.env`.
-Managed current/previous recovery images follow the existing retention policy.
+Future fixes use the scoped-update workflow. Keep the accepted design, no decorative numbering, two-font limit, real company assets and card/control containment. Current authorization covers this completed build and Derek variation; it does not grant unrelated production promotion, client-domain changes or shared-host repair. Earlier transient host failures remain dated evidence with unknown cause. Required checks, health, locks and single-writer boundaries still apply.
 
-## Derek-only menu photos — 18 October 2026
+## Cleanup and retained evidence
 
-Normal delivery is accepted; protected PR3 synchronized the normal site at fa503f35914be145ce87d20c28e58967d0054c01. This branch intentionally adds authentic menu-item photos. Do not merge this product variation into main or abdul-dev; both retain the accepted text-only item menu.
+Disposable local test containers, images, networks and synthetic volumes were removed. Two task-owned images and 17 exact task-owned build-cache entries were retired after ownership/reference checks; no global prune was used. Local preview processes/tabs were closed. Dependencies, generated dist, Python bytecode and superseded contact sheets were recycled (27,514,924 bytes), with recovery hashes verified; this is not a disk-space-freed claim. Earlier download/crop cleanup is recorded separately.
 
-All 147 Toast rows and17 categories remain intact.72 rows have supported photos, derived from49 original food images into50 WebP files (1,217,538 bytes total).75 rows remain without a sufficiently supported photo. Shared bread/portion variants and inferred matches are documented; photos do not prove exact ingredients or dietary suitability. Visible notes identify material serving variations. Six new originals came from the business Instagram and matching Yelp location. Private provenance and the delivered147-row gallery record source URLs, confidence and reasons. Public mapping: app/src/menu-photos.json; final dinner crop is tighter than the library's suggested crop to exclude the beverage edge.
-
-The expanded57-original library was delivered once and verified at https://sidehustle2026.slack.com/archives/C0C0J6RB8KT/p1792352055837829. Previous normal package remains historical. Local source/content and container checks passed; desktop1280 and mobile390/320 renders inspected, including narrow text enlargement. Live publication and independent focused review are the next acceptance gates; do not claim this variation finished before those records are added.
+Canonical originals, provenance, the two distinct delivered packages, source, final crop sheets and compact review/release evidence remain for continuity and audit. Reassess derived review artifacts at the next scoped update; retain unique source and delivery records. Unrelated applications, tool homes, persistent data and shared dependencies were preserved. Server current/previous recovery images remain under the existing managed retention policy; no ad-hoc server cleanup was performed.
