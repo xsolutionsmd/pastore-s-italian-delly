@@ -25,7 +25,7 @@ python .agents/skills/reference-design/scripts/inspo.py check
 
 Use `python3` where appropriate. Run setup inside the actual agent environment: a host's user configuration is not automatically copied into a container or another person's account. Restart/reload the client if native tools have not appeared. Read [setup and fallback](../.agents/skills/reference-design/references/setup.md) for the immediate callable helper, upstream clone/development route, costs, output budgets and removal. No secret is needed for hosted Inspo; keep other design credentials private.
 
-The skill and instructions ship with this repository. Verify actual browser/REA/accessibility capabilities in the active session, record capture gaps honestly and never substitute Stitch. Inspo is optional reference discovery, not a runtime dependency.
+The skill and instructions ship with this repository. Verify actual browser/accessibility capabilities in the active session and never substitute Stitch. REA is preferred tooling, not a required gate (Derek, October 18, 2026). If it is unavailable or fails after bounded recovery, use supported browser/developer-tools inspection of rendered pages, DOM/computed styles/layout, public client assets and browser-visible behavior. Capture desktop/mobile and exercise relevant flows, document the actual method and continue without a repair wait or waiver request. Do not repeat known rejected helpers or label fallback as REA. Reference inspection, populated reconstruction and quality checks still apply. Inspo is optional reference discovery, not a runtime dependency.
 
 ## Completion criteria
 

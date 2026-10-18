@@ -42,6 +42,12 @@ refreshes the generated status block.
 
 ## Rules for this repository
 
+- REA is preferred tooling, not a required gate (Derek, October 18, 2026). If it
+  cannot work after bounded recovery, use ordinary browser/devtools inspection,
+  record the method/limitation and continue without a permission or repair wait.
+  Sufficient browser evidence can pass reconstruction; actual reference inspection,
+  populated implementation and desktop/mobile interaction checks remain required.
+
 - Current XS workflow: no Stitch, including trial attempts. Reconcile older design
   rules with the current user request before delegation. Use researched company
   facts/assets to choose functionality and a premium reference, accept sufficient
