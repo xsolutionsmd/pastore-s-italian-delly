@@ -48,5 +48,10 @@ for(const [,id,body] of renderedRows){
 }
 assert.equal(imageRows,72);assert.equal(new Set(Object.values(photos).map(p=>p.src)).size,50);
 assert.equal(new Set(Object.values(photos).map(p=>p.sourceSha256)).size,49);
+for(const src of new Set(Object.values(photos).map(p=>p.src))){
+ const data=readFileSync(resolve(app,'dist',`.${src}`));
+ assert(data.length>32&&data.toString('ascii',0,4)==='RIFF'&&data.toString('ascii',8,12)==='WEBP',`Complete WebP asset: ${src}`);
+ assert.equal(data.readUInt32LE(4)+8,data.length,`WebP container length: ${src}`);
+}
 const catering=readFileSync(join(app,'dist/catering/index.html'),'utf8');for(const fact of ['$10.95','$13.95','10-person minimum','48-hour notice','$25 advance payment'])assert(catering.includes(fact));
 console.log('Content checks passed: five direct pages, 147 exact rows / 17 groups, prices, links, noindex, catering terms, 72 supported photo rows, 75 honest gaps.');
