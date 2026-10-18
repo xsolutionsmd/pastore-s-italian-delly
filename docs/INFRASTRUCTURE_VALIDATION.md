@@ -73,3 +73,26 @@ protection. Initial histories correctly contained one successful managed release
 each; no image deletion was eligible. These images and same-server configuration
 copies are not independent disaster backups. No reboot or destructive fault test
 was performed.
+
+## Subsequent bootstrap retirement ? 18 October 2026
+
+After current and previous managed recovery references were verified, the obsolete
+first-publish image and bootstrap rollback set were retired by exact identity.
+Original bootstrap files were recycled to verified server Trash. The normal
+Compose `.env` is now a relative symlink to managed `release.env`; the active
+container was preserved. The earlier bootstrap-retention paragraph is historical.
+No additional server cleanup or shared recovery mutation is included in the
+normal handoff. The abandoned advisory grant wait is superseded by Derek's direct
+resumption; the existing updater locks and protected release checks remain intact. Managed image retention continues under its existing
+current/history and observation-grace policy.
+
+## Normal final handoff resumption — 18 October 2026
+
+At 19:18 UTC, bounded certificate-validated HTTPS checks of home, health and
+uncached version passed for production, Derek and Abdul at
+`1a6633b375a0c4bab2f7cdd047c186bb60783b80`, matching their fresh GitHub branch heads.
+The prepared final documentation commit changes only handoff/review/state records;
+application, runtime, Docker, configuration and release sources are unchanged.
+Final publication follows the existing protected PR and initial three-branch sync.
+Exact terminal workflow and deployed revision evidence is kept in the private
+final-handoff receipt; no shared host diagnosis or restart is implied.
