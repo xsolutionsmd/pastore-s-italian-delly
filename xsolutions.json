@@ -135,7 +135,26 @@
       "status": "pending"
     },
     "build": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T15:56:34.341760+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "refine": "2026-10-18T15:52:21.222782+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Production container lifecycle tests pass release-readiness-r1.log; exact ARM64 artifact sha256:4dd13824501b8d0ae8903aa05f019c438df7c2179839480071538ed8541ece3b built and healthy read-only locally. Coordinator rendered 1440 home and 390 menu, exercised nav dialog open/focus/Menu transition, verified no overflow/broken images and all17 categories. Final all5page desktop/mobile/enlarged-text interactions from unchanged Claude app revision accepted. Existing Toast retained."
+      ],
+      "revision": "338738f594735982fa13fabc33403aadb17be620",
+      "inputs_sha256": {
+        "kb/features.md": "c0fdfa9aa19b96770ffbc227e9f876249c20bbd63686478e4e5e7fa78b1606b4",
+        "kb/design-brief.md": "ab2ff52987f5d25b0b6c08943de741f5961384fb0c65fd959db62adb2fe3582e"
+      },
+      "content_recorded": "2026-10-18T14:54:48.149512+00:00"
     },
     "first-publish": {
       "status": "pending"
@@ -165,5 +184,5 @@
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T14:53:02.736625+00:00"
+  "updated": "2026-10-18T15:56:34.361737+00:00"
 }

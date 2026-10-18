@@ -16,7 +16,7 @@ Coordinator static backend/runtime contract accepted; see docs/API.md for the ch
 Cleanup: owned browser tabs/processes are stopped. Coordinator's disposable containers, image, synthetic volumes, network and isolated builder/cache were removed and verified absent; unrelated environments are preserved. Source dependencies/build output and asset contact sheets are retained for imminent refinement, to recheck after that pass. Canonical library, provenance and evidence remain needed for final delivery.
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T15:59:13.673801+00:00):
+Pipeline status (generated 2026-10-18T15:59:42.908239+00:00):
 
 - **identity**: done
 - **research**: done
@@ -29,14 +29,14 @@ Pipeline status (generated 2026-10-18T15:59:13.673801+00:00):
 - **refine**: done
 - **build**: done
 - **first-publish**: done
-- **first-live-slack**: todo: record coordinator-accepted first-live-slack evidence
+- **first-live-slack**: done
 - **infra**: todo: record verified infra evidence
 - **review**: todo: blocked by infra
 - **fixes**: todo: blocked by review
 - **recheck**: todo: blocked by fixes
 - **deploy**: todo: blocked by recheck
 - **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by first-live-slack, infra, review, fixes, recheck, deploy, delivery
+- **final-handoff**: todo: blocked by infra, review, fixes, recheck, deploy, delivery
 <!-- xs-status:end -->
 
 ## Current state
