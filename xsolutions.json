@@ -163,7 +163,21 @@
       "status": "pending"
     },
     "infra": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T16:31:16.852250+00:00",
+      "workflow_version": 2,
+      "owner": "sol-xhigh",
+      "task_id": "node:delegated-task:command%3Amcp%3Adfb4922b-3fab-4660-ac9d-f6673906b9c9%3Adelegate-task%3Apastores-infra-20261018-r1",
+      "prerequisites": {
+        "first-publish": "2026-10-18T15:57:50.064896+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Public repository https://github.com/xsolutionsmd/pastore-s-italian-delly; protectedmain PR1 merged/linked, strict2checks; eachenvironment ownbranch/publicimage/updater; all3HTTPS exactrevisions and app/runtime/sourceparity PASS. Scopedlock/CAS gateway preserved siblingroutes; concurrent sibling releases attributed. private/runs/infra-r1-receipts.json."
+      ],
+      "revision": "a639adc17191f3be94fb6c3acc5eeabe71c22e53"
     },
     "review": {
       "status": "pending"
@@ -184,5 +198,5 @@
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T15:56:34.361737+00:00"
+  "updated": "2026-10-18T16:31:16.869812+00:00"
 }

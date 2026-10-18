@@ -49,13 +49,24 @@ def check_http(base, revision):
     for asset in sorted(assets):
         assert get(asset)[0], asset
     try:
+        get('/missing-page-check/')
+    except urllib.error.HTTPError as error:
+        assert error.code == 404
+        body = error.read().decode()
+        assert '<h1>Page not found</h1>' in body
+        assert 'href="/">Back to Home</a>' in body
+        assert 'href="/menu/">Explore the Menu</a>' in body
+        assert 'noindex' in error.headers.get('X-Robots-Tag', '')
+    else:
+        raise AssertionError('Unknown route must return the branded 404')
+    try:
         get('/assets/pastores-infra-missing.css')
     except urllib.error.HTTPError as error:
         assert error.code == 404
     else:
         raise AssertionError('Missing asset must return 404')
     return {'base': base, 'revision': revision, 'routes': list(ROUTES), 'assets': len(assets),
-            'health': True, 'noindex': True, 'menu_rows': 147, 'menu_groups': 17, 'menu_text_only': True}
+            'health': True, 'noindex': True, 'menu_rows': 147, 'menu_groups': 17, 'menu_text_only': True, 'branded_404': True}
 
 def check_image(image, compose_path, environment, revision):
     identity = 'pastores-infra-check-' + uuid.uuid4().hex[:10]

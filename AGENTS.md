@@ -42,6 +42,15 @@ refreshes the generated status block.
 
 ## Rules for this repository
 
+- After an authorized publication, update the existing team Slack website URL
+  source of truth, then send the verified short URL and directory link to the
+  established updates channel. First-live wording: "<Company> website published at
+  <URL>." Keep that same document current at final handoff, later releases, preview
+  additions, URL changes and retirements; preserve other businesses. Use the new
+  short URL convention only, with no old-URL compatibility note. The installed XS
+  skill's `references/website-url-directory.md` owns document identity, readback,
+  retry and single-writer rules. Keep cross-client content and receipts private.
+
 - REA is preferred tooling, not a required gate (Derek, October 18, 2026). If it
   cannot work after bounded recovery, use ordinary browser/devtools inspection,
   record the method/limitation and continue without a permission or repair wait.
