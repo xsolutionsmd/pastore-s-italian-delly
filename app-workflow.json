@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "name": "pastore-s-italian-delly",
+  "repository": "xsolutionsmd/pastore-s-italian-delly",
+  "source": "app",
+  "service": "app",
+  "container_port": 8080,
+  "local_port": 8787,
+  "health_path": "/health",
+  "version_path": "/version.json",
+  "stateful": false,
+  "backup_command": null,
+  "branches": [
+    "main",
+    "derek-dev",
+    "abdul-dev"
+  ]
+}

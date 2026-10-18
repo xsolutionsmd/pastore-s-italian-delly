@@ -1,0 +1,991 @@
+{
+  "source": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd",
+  "observed": "2026-10-18",
+  "scope": "147 prepared-food purchase rows across 17 stable-ID categories, including bread/serving variants. Packaged grocery, drinks, chips and deli stock are linked through Toast, not reproduced.",
+  "groups": [
+    {
+      "id": "menuGroup-1ff6f1bc-edea-4549-9763-eb1610c32734",
+      "heading": "6\" Deli Subs, Sandwiches, Wraps",
+      "items": [
+        {
+          "name": "Italian Cold Cut",
+          "description": "Provolone Cheese, Genoa Salami, Capicola, Prosciuttini, and Mortadella. Everything includes Lettuce, Tomato, Onions, Olives, Hots, Mayo, Oil & Vinegar",
+          "price": "$8.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-italian-cold-cut_25834776-b473-4c8a-8bb7-b121cb665fe0"
+        },
+        {
+          "name": "(HOT) Meatball Parmesan Sub",
+          "description": "3 all beef meatballs in our homemade tomato sauce, topped with grated Pecorino Romano",
+          "price": "$8.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-hot-meatball-parmesan-sub_ed540708-0ec9-4fa8-928b-326e81f374da"
+        },
+        {
+          "name": "(HOT) Sausage Parmesan Sub",
+          "description": "Two Ostrowski's of Bank Street sausage in our homemade sauce, topped with grated Pecorino Romano",
+          "price": "$8.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-hot-sausage-parmesan-sub_41c38adb-4cf8-47cc-8ef6-38db00181acc"
+        },
+        {
+          "name": "American Cold Cut",
+          "description": "Spiced Ham, Beef Bologna, and American Cheese",
+          "price": "$8.25",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-american-cold-cut_265dc072-2678-416e-b6bf-cff66f9dc98d"
+        },
+        {
+          "name": "Smoked Turkey",
+          "description": "Choose your bread & toppings!",
+          "price": "$8.25",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-smoked-turkey_72bcc496-e352-4f25-ba3b-d93a2b2b2149"
+        },
+        {
+          "name": "Oven Roasted Turkey",
+          "description": "Choose your bread & toppings!",
+          "price": "$8.25",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-oven-roasted-turkey_1bd75141-cbfa-44d6-99bf-ec4aacb09553"
+        },
+        {
+          "name": "Honey Mesquite Turkey",
+          "description": "Choose your bread & toppings!",
+          "price": "$8.25",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-honey-mesquite-turkey_53f97d37-11a8-486e-8c51-6b0f1f06c09d"
+        },
+        {
+          "name": "Black Peppered Turkey",
+          "description": "Choose your bread & toppings!",
+          "price": "$8.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-black-peppered-turkey_ae49cf24-e214-4cca-8548-5355ddf26628"
+        },
+        {
+          "name": "Roast Beef",
+          "description": "Choose your bread & toppings!",
+          "price": "$9.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-roast-beef_7197594b-5a40-4283-810f-fc278cfd902e"
+        },
+        {
+          "name": "Corned Beef Brisket",
+          "description": "Choose your bread & toppings!",
+          "price": "$10.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-corned-beef-brisket_e6bc633f-edf0-40a8-abf5-ce88c7bb67ba"
+        },
+        {
+          "name": "Beef Bologna",
+          "description": "Choose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-beef-bologna_8207d8d6-cde2-4533-9f32-e07ecf81308c"
+        },
+        {
+          "name": "Spiced Ham",
+          "description": "Choose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-spiced-ham_dce450cd-1e56-46a1-a4dd-b7683648efe6"
+        },
+        {
+          "name": "Imported Polish Ham",
+          "description": "Choose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-imported-polish-ham_31b15753-1ad9-45a7-b77d-1e4215abdd94"
+        },
+        {
+          "name": "Virginia Baked Ham",
+          "description": "Choose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-virginia-baked-ham_9800592b-3401-4b77-a8a5-2fd7c6245de6"
+        },
+        {
+          "name": "Prosciuttini (Black Peppered Italian Ham)",
+          "description": "Choose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-prosciuttini-black-peppered-italian-ham_4fd889f0-954c-41d4-9d50-45eeab64f3df"
+        },
+        {
+          "name": "Capicola (Red Peppered Ham)",
+          "description": "Choose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-capicola-red-peppered-ham_3ba48bb0-419c-4043-8aff-64b04b300c2d"
+        },
+        {
+          "name": "Dry Hot Capicola (Coppa)",
+          "description": "Cured, whole muscle pork, with spicy coating\r\nChoose your bread & toppings!",
+          "price": "$10.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-dry-hot-capicola-coppa_774520b6-77aa-403d-ba0d-81056025a500"
+        },
+        {
+          "name": "Rosemary Ham",
+          "description": "Choose your bread & toppings!",
+          "price": "$8.25",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-rosemary-ham_de50e84e-00e0-428d-893e-b558fb20f5a7"
+        },
+        {
+          "name": "Prosciutto (Domestic)",
+          "description": "Choose your bread & toppings!",
+          "price": "$8.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-prosciutto-domestic_f8a8a3b5-1099-4dbc-87d4-a9e74cc00815"
+        },
+        {
+          "name": "Prosciutto di Parma",
+          "description": "The king of meats! Cured and aged for over 20 months!\r\nChoose your bread & toppings!",
+          "price": "$11.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-prosciutto-di-parma_51aa1ff8-27b8-454a-ba10-3dd740cc6d75"
+        },
+        {
+          "name": "Genoa Salami",
+          "description": "Choose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-genoa-salami_484c71b8-9419-4559-8553-3d22c0d0dc14"
+        },
+        {
+          "name": "Dilusso Genoa Salami",
+          "description": "Deluxe salame in a natural casing!\r\nChoose your bread & toppings!",
+          "price": "$8.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-dilusso-genoa-salami_f286c755-60ea-4d0a-ad86-fef873343bb0"
+        },
+        {
+          "name": "Sopressata (Sweet)",
+          "description": "Traditional coarse-ground, dry-cured salami!\r\nChoose your bread & toppings!",
+          "price": "$8.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-sopressata-sweet_4e5b1882-7ce0-4e44-a4bc-8a92ebbfe6cf"
+        },
+        {
+          "name": "Calabrese (Hot)",
+          "description": "Cured, spicy salame, with Calabrian peppers and fennel\r\nChoose your bread & toppings!",
+          "price": "$10.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-calabrese-hot_7ddb2674-0a12-4a6e-850b-0bcf0da4788c"
+        },
+        {
+          "name": "Pepperoni (sandwich style)",
+          "description": "Choose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-pepperoni-sandwich-style_a9ef8563-397b-410c-8f76-054bc71678e6"
+        },
+        {
+          "name": "Mortadella",
+          "description": "Choose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-mortadella_7f79709b-a12f-4d9d-8326-1b713686e0cb"
+        },
+        {
+          "name": "Porchetta",
+          "description": "Deli-style Italian roast pork, pork loin wrapped in pork belly, flavored with garlic, rosemary and sea salt.\r\nChoose your bread & toppings!",
+          "price": "$9.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-porchetta_2fe36aef-d981-417b-b00a-65b22f48f89c"
+        },
+        {
+          "name": "Fresh Mozzarella Sub",
+          "description": "**NEW RECIPE** Fresh Mozzarella, ripe tomatoes, Homemade Basil Pesto, and Balsamic Glaze. CONTAINS PINE NUTS",
+          "price": "$8.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-fresh-mozzarella-sub_b8ecd385-b2ce-4cab-ad21-5b13abe2bf0c"
+        },
+        {
+          "name": "Cheese Combo (American-Swiss-Provolone)",
+          "description": "Choose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-cheese-combo-americanswissprovolone_8852687d-da54-4a7f-84b5-9bb68a3b1b41"
+        },
+        {
+          "name": "Roasted Red Pepper (Vegetarian)",
+          "description": "Vegetarian. Our roasted red peppers, marinated with garlic and parsley.\r\nChoose your bread & toppings!",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-roasted-red-pepper-vegetarian_b64c5baf-013d-4c6d-be17-9e6a799f2cd8"
+        },
+        {
+          "name": "Homemade Tuna Salad",
+          "description": "Our Homemade Tuna Salad, made with mayo and celery.\r\nChoose your bread & toppings!",
+          "price": "$8.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-homemade-tuna-salad_9482b507-56ca-460d-96e7-fc4e0154551f"
+        },
+        {
+          "name": "Homemade Chicken Salad",
+          "description": "Our Homemade Chicken Salad, with all white meat, mayo, celery, red onion, pepper and Old Bay.\r\nChoose your bread & toppings!",
+          "price": "$8.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-homemade-chicken-salad_4ac1248f-e55b-4218-b005-0897f6517579"
+        },
+        {
+          "name": "B. L. T.",
+          "description": "A classic!",
+          "price": "$6.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-b-l-t_aa113e48-2a2f-46c4-96fd-55654e08b827"
+        },
+        {
+          "name": "Chicken Caesar",
+          "description": "Grilled chicken breast (cold), Romaine lettuce, shredded Parmesan, Caesar dressing, and our homemade Pastore's Italian Seasoning.",
+          "price": "$9.45",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-chicken-caesar_64e9c5ab-7ed4-4a78-adf2-8fbb9e797b47"
+        },
+        {
+          "name": "Turkey Bacon Cheddar",
+          "description": "Smoked Turkey, Cheddar Cheese, & Bacon with Lettuce, Tomato, and a Spicy Honey Mustard",
+          "price": "$9.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-turkey-bacon-cheddar_bec0a977-5f90-450b-8ae9-d81cb9dd1762"
+        },
+        {
+          "name": "Chicken Bacon Ranch",
+          "description": "Grilled Chicken Breast (cold), Bacon, Leaf Lettuce, and Ranch dressing on a Kaiser roll",
+          "price": "$8.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-chicken-bacon-ranch_18b8c11d-b03a-4f21-bc48-64fd7a5a7aa9"
+        },
+        {
+          "name": "“Burrata Bella”",
+          "description": "Creamy Burrata, Prosciutto, Roasted Red Peppers, Homemade Pesto, and Balsamic Glaze! Bellisimo!",
+          "price": "$9.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-burrata-bella_7f3a9dcf-f48b-4bb0-b0b7-b53fe395c7a0"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-496d0e95-1cef-4c4c-a526-00bb0bee5ecc",
+      "heading": "Whole Geno Subs",
+      "items": [
+        {
+          "name": "Italian Cold Cut Whole Geno",
+          "description": "Provolone Cheese, Genoa Salami, Capicola, Prosciuttini, and Mortadella. Everything includes Lettuce, Tomato, Onions, Olives, Hots, Mayo, Oil & Vinegar",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-italian-cold-cut-whole-geno_63b50287-f2b2-49c1-b4db-5bf6ef816c67"
+        },
+        {
+          "name": "Meatball Parmesan Whole Geno",
+          "description": "5 all beef meatballs in our homemade tomato sauce, topped with grated Pecorino Romano",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-meatball-parmesan-whole-geno_7fb16f14-4113-4657-a211-e58918ff1aee"
+        },
+        {
+          "name": "Sausage Parmesan Whole Geno",
+          "description": "Three Ostrowski's of Bank Street sausages on the Geno roll, in our homemade sauce, with Provolone and grated Pecorino Romano",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-sausage-parmesan-whole-geno_8f8a076e-2176-4a5c-8ad7-f8e3f57656f5"
+        },
+        {
+          "name": "American Cold Cut Whole Geno",
+          "description": "Spiced Ham, Beef Bologna, and American Cheese.\r\nChoose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-american-cold-cut-whole-geno_83ca42af-aa7a-47c0-8d44-c493fee5a1e6"
+        },
+        {
+          "name": "Smoked Turkey Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-smoked-turkey-whole-geno_669a2d2f-923a-42c3-b306-9fefc601be10"
+        },
+        {
+          "name": "Oven Roasted Turkey Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-oven-roasted-turkey-whole-geno_0d2dcb43-03c3-4d4b-b414-0009800236cc"
+        },
+        {
+          "name": "Honey Mesquite Turkey Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-honey-mesquite-turkey-whole-geno_59a52e90-3c94-49df-9816-a9b3a2e8bd3f"
+        },
+        {
+          "name": "Black Peppered Turkey Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-black-peppered-turkey-whole-geno_0cda8591-1dd0-4138-92c2-07c642bf668e"
+        },
+        {
+          "name": "Roast Beef Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$13.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-roast-beef-whole-geno_dfc5fe48-f2b2-4a69-a407-38e9cd3df425"
+        },
+        {
+          "name": "Corned Beef Brisket Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$15.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-corned-beef-brisket-whole-geno_03f0f0f8-c165-4790-b3cb-3c7129aad526"
+        },
+        {
+          "name": "Beef Bologna Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-beef-bologna-whole-geno_a91ac832-19f4-46a0-850b-70c0a33b9c6f"
+        },
+        {
+          "name": "Spiced Ham Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-spiced-ham-whole-geno_98a0a2aa-ade4-4239-a9ad-81a824cc24d7"
+        },
+        {
+          "name": "Prosciuttini (Black Peppered Italian Ham) Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-prosciuttini-black-peppered-italian-ham-whole-geno_12298f74-965a-4e29-8d0b-7d57ecdd0ca3"
+        },
+        {
+          "name": "Imported Polish Ham Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-imported-polish-ham-whole-geno_c9a96300-a534-49b8-ad14-b5f72f2d2380"
+        },
+        {
+          "name": "Virginia Baked Ham Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-virginia-baked-ham-whole-geno_19e4e425-9bed-430e-822d-34278e534fe6"
+        },
+        {
+          "name": "Capicola (Red Peppered Ham) Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-capicola-red-peppered-ham-whole-geno_f0278f8f-9509-4c02-bffb-da4af4bb0250"
+        },
+        {
+          "name": "Dry Hot Capicola (Coppa) Whole Geno",
+          "description": "Cured, whole muscle pork, with spicy coating\r\nChoose your toppings!",
+          "price": "$15.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-dry-hot-capicola-coppa-whole-geno_f0025403-9cfa-464f-9e2c-d3b45d762174"
+        },
+        {
+          "name": "Rosemary Ham Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-rosemary-ham-whole-geno_38db8631-783c-4066-a258-4f18635452a5"
+        },
+        {
+          "name": "Prosciutto (Domestic) Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$13.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-prosciutto-domestic-whole-geno_bc40ec82-d2b4-41a0-bdc6-8773111d74ee"
+        },
+        {
+          "name": "Prosciutto di Parma Whole Geno",
+          "description": "The king of meats! Cured and aged for over 20 months!\r\nChoose your toppings!",
+          "price": "$16.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-prosciutto-di-parma-whole-geno_c9020063-9c36-4fe0-acc4-0085f2efbc73"
+        },
+        {
+          "name": "Genoa Salami Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-genoa-salami-whole-geno_da5acafd-cfbc-4b19-82e2-6ee3ba04a08b"
+        },
+        {
+          "name": "Dilusso Genoa Salami Whole Geno",
+          "description": "Deluxe salame in a natural casing!\r\nChoose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-dilusso-genoa-salami-whole-geno_0ae03180-007b-4fb7-b386-7b067d4a8b5c"
+        },
+        {
+          "name": "Sopressata (Sweet) Whole Geno",
+          "description": "Traditional coarse-ground, dry-cured salami\r\nChoose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-sopressata-sweet-whole-geno_aa92e889-7c79-40ad-89ac-a643ddfc3486"
+        },
+        {
+          "name": "Calabrese (Hot) Whole Geno",
+          "description": "Cured, spicy salame, with Calabrian peppers and fennel\r\nChoose your toppings!",
+          "price": "$15.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-calabrese-hot-whole-geno_9d3f6a94-3a88-44a2-af51-b988ffdc823d"
+        },
+        {
+          "name": "Pepperoni (sandwich style) Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-pepperoni-sandwich-style-whole-geno_0126129d-15ba-47a9-8b02-7e22de4f53f0"
+        },
+        {
+          "name": "Mortadella Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-mortadella-whole-geno_4076d919-dc46-4e3a-9841-81a1c698792b"
+        },
+        {
+          "name": "Porchetta Whole Geno",
+          "description": "Deli-style Italian roast pork, pork loin wrapped in pork belly, flavored with garlic, rosemary and sea salt.\r\nChoose your toppings!",
+          "price": "$13.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-porchetta-whole-geno_eb5c88cb-b6f4-4e30-a4a7-4673acbf920d"
+        },
+        {
+          "name": "Fresh Mozzarella Whole Geno",
+          "description": "Topped with tomato, dry basil, oil, and red wine vinegar",
+          "price": "$13.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-fresh-mozzarella-whole-geno_969c5091-fade-4616-adcc-6ee27290ce6d"
+        },
+        {
+          "name": "Cheese Combo Whole Geno",
+          "description": "Choose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-cheese-combo-whole-geno_e5a68a3b-a08a-489f-a46c-8ac1ed3d15a7"
+        },
+        {
+          "name": "Roasted Red Pepper Whole Geno",
+          "description": "Vegetarian. Our roasted red peppers, marinated with garlic and parsley.\r\nChoose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-roasted-red-pepper-whole-geno_7a8a0168-c97a-430c-9e54-6cf930e8043b"
+        },
+        {
+          "name": "Homemade Tuna Salad Whole Geno",
+          "description": "Our Homemade Tuna Salad, made with mayo and celery.\r\nChoose your toppings!",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-homemade-tuna-salad-whole-geno_27f05edf-da59-408c-954a-7d757a83c99c"
+        },
+        {
+          "name": "Homemade Chicken Salad Whole Geno",
+          "description": "Our Homemade Chicken Salad, with all white meat, mayo, celery, red onion, pepper and Old Bay.\r\nChoose your toppings!",
+          "price": "$13.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-homemade-chicken-salad-whole-geno_127f6feb-b4d6-4ace-a081-34dc480aab7f"
+        },
+        {
+          "name": "Chicken Caesar Whole Geno",
+          "description": "Grilled chicken breast (cold), Romaine lettuce, shredded Parmesan, Caesar dressing, and our homemade Pastore's Italian Seasoning.",
+          "price": "$13.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-chicken-caesar-whole-geno_4e25c439-f479-409f-bb71-e9d469781013"
+        },
+        {
+          "name": "Turkey Bacon Cheddar Whole Geno",
+          "description": "Smoked Turkey, Cheddar Cheese, & Bacon with Lettuce, Tomato, and a Spicy Honey Mustard",
+          "price": "$14.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-turkey-bacon-cheddar-whole-geno_0e24881d-627a-4918-be41-e3fbace62839"
+        },
+        {
+          "name": "Chicken Bacon Ranch Whole Geno",
+          "description": "Grilled Chicken Breast (cold), Bacon, Leaf Lettuce, and Ranch dressing",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-chicken-bacon-ranch-whole-geno_d100b517-d165-4ed0-8c3b-bef924d5e8d7"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-ed9997e8-2db2-44fd-adba-1fd3b79bda49",
+      "heading": "Specialty Sandwiches",
+      "items": [
+        {
+          "name": "\"The Gonzo\"",
+          "description": "Our famous Italian Cold Cut on a Whole Loaf of Italian Bread! Great for parties, tailgates, or hungry folks! \r\nProvolone, Genoa Salami, Capicola, Prosciuttini, Mortadella",
+          "price": "$24.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-the-gonzo_d282ef02-f553-4b6d-9823-a089488bd340"
+        },
+        {
+          "name": "\"The Muffalettini\"",
+          "description": "Our take on the New Orleans Muffaletta! Sharp Provolone, Mozzarella, Genoa Salami, Capicola, Pepperoni, and Mortadella piled on a round Vienna roll with our Homemade Olive Salad!",
+          "price": "$6.95+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-the-muffalettini_85f384d7-e331-4f16-b82e-dea270e25953"
+        },
+        {
+          "name": "\"The Porchetta Verde\"",
+          "description": "Tender, Flavorful Porchetta with our Homemade Italian Salsa Verde on a hunk of Liscio's Bakery's Italian Loaf",
+          "price": "$7.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-the-porchetta-verde_b00952a0-3a6e-40a9-b407-ec29f56ce73f"
+        },
+        {
+          "name": "\"The Half Gonzo\"",
+          "description": "Our Famous Italian Cold Cut on Half a loaf of Italian Bread!\r\nProvolone, Genoa Salami, Capicola, Prosciuttini, Mortadella",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-the-half-gonzo_0bb2cd83-c7c3-4486-a155-4db044fabc32"
+        },
+        {
+          "name": "\"The Meatball Gonzo\"",
+          "description": "A Whole loaf of Italian bread, hollowed out and filled with meatballs, tomato sauce, Provolone, and grated Pecorino Romano.",
+          "price": "$24.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-the-meatball-gonzo_b1ef42fc-41b0-4acf-855e-a907a69b3f64"
+        },
+        {
+          "name": "\"The Half Meatball Gonzo\"",
+          "description": "Half a loaf of Italian bread, hollowed out and filled with meatballs, tomato sauce, Provolone and grated Pecorino Romano",
+          "price": "$12.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-the-half-meatball-gonzo_5c67f430-b128-4da6-b75e-e4789ce4b29b"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-504d9e01-4049-493a-b86f-ee756ee387fb",
+      "heading": "Club Sandwiches",
+      "items": [
+        {
+          "name": "Turkey Club",
+          "description": "Oven Roasted Turkey Breast piled high on three pieces of toast with lettuce, tomato, mayo and bacon",
+          "price": "$11.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-turkey-club_d3a98cc4-0249-4b1d-bf64-9b9cc46aedc1"
+        },
+        {
+          "name": "Ham Club",
+          "description": "Imported Ham piled high on three pieces of toast with lettuce, tomato, mayo and bacon",
+          "price": "$11.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-ham-club_30d94f05-429b-415c-b686-304dcf8f4a60"
+        },
+        {
+          "name": "Ham & Turkey Club",
+          "description": "Oven Roasted Turkey Breat and Imported Ham piled high on three pieces of toast with lettuce, tomato, mayo and bacon",
+          "price": "$11.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-ham-turkey-club_1568b205-81ab-406f-9f9b-599156dcf04d"
+        },
+        {
+          "name": "Roast Beef Club",
+          "description": "Premium Roast Beef piled high on three pieces of toast with lettuce, tomato, mayo and bacon",
+          "price": "$11.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-roast-beef-club_e8a008c5-0736-44f7-818b-268c74783113"
+        },
+        {
+          "name": "Homemade Tuna Salad Club",
+          "description": "Homemad Tuna Salad piled high on three pieces of toast with lettuce, tomato, mayo and bacon",
+          "price": "$11.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-homemade-tuna-salad-club_79923937-0039-4ec7-a192-dd4a8310fa1e"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-a46b1be1-af5a-4953-bf81-5bd89635fd34",
+      "heading": "Tossed Salads",
+      "items": [
+        {
+          "name": "Small Italian Salad",
+          "description": "Iceberg lettuce, tomatoes, onions, pepperoncini, spiced green olives, our Pastore’s Italian Seasoning topped with ham and provolone pinwheels",
+          "price": "$6.25",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-small-italian-salad_99cbf525-6feb-4169-9906-4cc060f639c4"
+        },
+        {
+          "name": "Small Greek Salad",
+          "description": "Iceberg lettuce, tomatoes, onions, pepperoncini, Kalamata olives, our Pastore’s Italian Seasoning topped with Feta cheese.",
+          "price": "$6.25",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-small-greek-salad_422e5054-df29-45ea-aaf0-d35266acc67a"
+        },
+        {
+          "name": "Small Garden Salad",
+          "description": "",
+          "price": "$5.75",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-small-garden-salad_fd54e96f-aab8-47ca-b1fb-a5d63be474d1"
+        },
+        {
+          "name": "Small Caesar Salad",
+          "description": "Romaine lettuce, our Pastore’s Italian Seasoning, shredded Parmesan, and croutons.",
+          "price": "$5.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-small-caesar-salad_2c338905-6cf7-448a-95c5-0550e422d616"
+        },
+        {
+          "name": "Small Chicken Caesar Salad",
+          "description": "Romaine lettuce, our Pastore’s Italian Seasoning, shredded Parmesan, and croutons, topped with grilled chicken breast (cold)",
+          "price": "$7.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-small-chicken-caesar-salad_45ff4467-14aa-484c-af87-d03774d91e8c"
+        },
+        {
+          "name": "Large Italian Salad",
+          "description": "Iceberg lettuce, tomatoes, onions, pepperoncini, spiced green olives, our Pastore’s Italian Seasoning topped with ham and provolone pinwheels",
+          "price": "$8.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-large-italian-salad_9acb766e-9cc7-43b7-a935-0f948d20cad2"
+        },
+        {
+          "name": "Large Greek Salad",
+          "description": "Iceberg lettuce, tomatoes, onions, pepperoncini, Kalamata olives, our Pastore’s Italian Seasoning topped with Feta cheese.",
+          "price": "$8.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-large-greek-salad_62255c5f-e2cb-444a-a53a-3198aaecccd0"
+        },
+        {
+          "name": "Large Garden Salad",
+          "description": "",
+          "price": "$7.50",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-large-garden-salad_2760bc74-9c81-4c9a-b2e2-dcd2915879c1"
+        },
+        {
+          "name": "Large Caesar Salad",
+          "description": "Romaine lettuce, our Pastore’s Italian Seasoning, shredded Parmesan, and croutons.",
+          "price": "$7.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-large-caesar-salad_c3b25a1d-5f8c-401c-830a-78c0ef089a5f"
+        },
+        {
+          "name": "Large Chicken Caesar Salad",
+          "description": "Romaine lettuce, our Pastore’s Italian Seasoning, shredded Parmesan, and croutons, topped with grilled chicken breast (cold)",
+          "price": "$9.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-large-chicken-caesar-salad_1fbff6b3-942a-4596-a917-114163c2318b"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-b8a0d32d-404f-48ad-8316-80d527779379",
+      "heading": "Homemade Pasta Salads",
+      "items": [
+        {
+          "name": "Pasta Parmesan 1/2lb",
+          "description": "Our first pasta salad from who knows how long ago! Fusilli and shells with a tangy pepper parmesan dressing, red peppers, and black olives.",
+          "price": "$3.99",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-pasta-parmesan-12lb_68979ab9-fec5-4835-b566-39b52e43ae9d"
+        },
+        {
+          "name": "Greek Pasta Salad 1/2lb",
+          "description": "Penne pasta with feta cheese, red bell peppers, pepperoncini, red onion, and black olives with a golden dressing and oregano.",
+          "price": "$3.99",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-greek-pasta-salad-12lb_32450459-8f4d-4203-9ea2-5a7827efe0ee"
+        },
+        {
+          "name": "Linguine Salad 1/2lb",
+          "description": "Linguine pasta with fresh tomatoes and cucumbers in a seasoned Italian dressing.",
+          "price": "$3.99",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-linguine-salad-12lb_04578b01-e8d1-4101-9b35-3c757447b932"
+        },
+        {
+          "name": "Antipasto Salad 1/2lb",
+          "description": "Just like an antipasto tray, just all mixed together. Salami, pepperoni, and sopressata, with a mix of cheeses, giardiniera, olives, peppers, and a golden Italian dressing.",
+          "price": "$3.99",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-antipasto-salad-12lb_cb2583cb-244f-4f24-a22e-2d2d4ae015fc"
+        },
+        {
+          "name": "Capo Pasta Salad 1/2lb",
+          "description": "Capo Pasta will have you eating like a \"Made Man!\" Made with gemelli pasta, salami, pepperoni, provolone, tomato, red onion, pepperoncini, Pecorino Romano, and a blend of our homemade dressings.",
+          "price": "$4.49",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-capo-pasta-salad-12lb_17518e05-da97-48f4-85ae-1727a8e49b64"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-e817a5a2-0167-4a2e-847e-7d29851cd503",
+      "heading": "Homemade Potato Salads",
+      "items": [
+        {
+          "name": "Yellow Potato Salad 1/2lb",
+          "description": "",
+          "price": "$3.49",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-yellow-potato-salad-12lb_f4c402a5-690a-4790-80b0-12daf623d459"
+        },
+        {
+          "name": "Parmesan Potato Salad 1/2lb",
+          "description": "",
+          "price": "$3.49",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-parmesan-potato-salad-12lb_4f6fc65d-8c56-411c-abe6-29bd76158371"
+        },
+        {
+          "name": "Italian Potato Salad 1/2lb",
+          "description": "",
+          "price": "$3.49",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-italian-potato-salad-12lb_12532e0f-6c8b-4442-9e3c-5512d3fe233c"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-62db6768-0ddb-4948-a605-33609137ed95",
+      "heading": "Homemade Soups & Chili",
+      "items": [
+        {
+          "name": "Hot Homemade Soup of the Day",
+          "description": "Hot Soup of the Day. Call for today's special. Changes daily.\nChicken Noodle, Maryland Crab, Italian Wedding, Roasted Tomato & Ricotta, Stuffed Pepper",
+          "price": "$3.79+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-hot-homemade-soup-of-the-day_0ea1f8e5-038a-410b-acc0-dd65e48cdc7a"
+        },
+        {
+          "name": "Frozen Quarts",
+          "description": "Choose from one of our Homemade Soup selections for your freezer. Just take home, heat, and eat!",
+          "price": "$12.99",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-frozen-quarts_73dbadbb-9261-4312-8d8b-d8f3014d475f"
+        },
+        {
+          "name": "Homemade Chili",
+          "description": "Our famous homemade chili! Beef, beans, and vegetables…simple, but delicious!",
+          "price": "$3.99+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-homemade-chili_4bf6405e-4eb8-4b36-99fa-78dea875b4c3"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-0215d0ae-8ed8-4884-bc68-bacfd036311b",
+      "heading": "Additional Sides & Deli Salads",
+      "items": [
+        {
+          "name": "Creamy Cole Slaw 1/2lb",
+          "description": "",
+          "price": "$3.49",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-creamy-cole-slaw-12lb_b29f7273-d4f7-49ea-965e-cb3e5860b399"
+        },
+        {
+          "name": "Amish Macaroni Salad 1/2lb",
+          "description": "",
+          "price": "$3.49",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-amish-macaroni-salad-12lb_438043df-cd77-48d9-b8a2-40c5bbdce51a"
+        },
+        {
+          "name": "Pepper Shooters",
+          "description": "",
+          "price": "$1.25+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-pepper-shooters_34dff2c4-8b95-4d44-ae58-10a9a3a83caa"
+        },
+        {
+          "name": "Kosher Dill Pickle",
+          "description": "",
+          "price": "$1.59",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-kosher-dill-pickle_d99d8569-2306-48ec-868c-7f21f2b98095"
+        },
+        {
+          "name": "Caprese Salad",
+          "description": "**NEW RECIPE** Fresh Mozzarella, ripe tomatoes, Homemade Basil Pesto, Balsamic Glaze. CONTAINS PINE NUTS. Pictured is a Large.",
+          "price": "$6.49+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-caprese-salad_727e844c-0836-445e-87e0-0a4a7e06d0eb"
+        },
+        {
+          "name": "Roasted Red Peppers",
+          "description": "Roasted red peppers, marinated in garlic, parsley and olive oil.",
+          "price": "$1.99+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-roasted-red-peppers_004b9bc1-372d-4d18-9910-2201c937aae9"
+        },
+        {
+          "name": "Homemade Shrimp Salad",
+          "description": "Whole shrimp, celery, may and Old Bay! Simple and delicious!",
+          "price": "$4.99+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-homemade-shrimp-salad_2da0137d-6f0a-480f-920b-5f6068e106c6"
+        },
+        {
+          "name": "Homemade Chicken Salad",
+          "description": "All white meat chicken, mayo, celery, red onion, Old Bay and black pepper.",
+          "price": "$7.48+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-homemade-chicken-salad_2b06709c-b0a8-40e8-a431-b2c123747a02"
+        },
+        {
+          "name": "Homemade Tuna Salad",
+          "description": "",
+          "price": "$6.48+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-homemade-tuna-salad_211bc712-2958-4990-b53c-325000328ac6"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-be465614-252a-4b6f-80c5-fd8c74d2fd6a",
+      "heading": "Desserts",
+      "items": [
+        {
+          "name": "Cannoli",
+          "description": "Mini and Regular. Sold individually.",
+          "price": "$2.75+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-cannoli_1bab0e8e-999b-4af9-95dd-e79f231582c5"
+        },
+        {
+          "name": "Black Bottoms",
+          "description": "",
+          "price": "$2.49+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-black-bottoms_7303c3eb-1293-423a-b5be-4f0d27a7e178"
+        },
+        {
+          "name": "Tiramisu",
+          "description": "A classic Italian dessert with coffee soaked lady fingers and a sweet Mascarpone cream and cocoa powder!",
+          "price": "$4.49",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-tiramisu_1cf538c9-3b6b-4f41-b856-8575a7d165da"
+        },
+        {
+          "name": "Anise Pizzelle 4-pk",
+          "description": "",
+          "price": "$2.29",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-anise-pizzelle-4pk_04abb202-7371-4dde-8797-4635705ecabe"
+        },
+        {
+          "name": "Almond Pizzelle 4-pk",
+          "description": "",
+          "price": "$2.29",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-almond-pizzelle-4pk_18c935db-bfcd-4a33-aef6-91f98c977c0b"
+        },
+        {
+          "name": "Chocolate Pizzelle 4-pk",
+          "description": "",
+          "price": "$2.29",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-chocolate-pizzelle-4pk_1a433cad-09e0-4f6b-a3e3-f929f3ffffa8"
+        },
+        {
+          "name": "Brownies",
+          "description": "",
+          "price": "$2.25",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-brownies_18b05458-145f-4540-a18d-0d19325d9dac"
+        },
+        {
+          "name": "Rice Pudding",
+          "description": "Dusted with Cinnamon",
+          "price": "$3.99",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-rice-pudding_20b4ab4f-0213-445c-be11-1d1b7928606c"
+        },
+        {
+          "name": "Cheesecake",
+          "description": "Impasto Bakery",
+          "price": "$5.99",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-cheesecake_2d4a314b-2ea2-4794-91f4-dfbf3e9adcd2"
+        },
+        {
+          "name": "Limoncello Cake",
+          "description": "Impasto Bakery",
+          "price": "$5.99",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-limoncello-cake_f03789c7-cdd1-4713-9eb6-a217e6617f8b"
+        },
+        {
+          "name": "Whole Tiramisu (Serves 15)",
+          "description": "A classic Italian dessert with coffee soaked lady fingers and a sweet Mascarpone cream and cocoa powder! This tray is perfect for family gatherings!",
+          "price": "$54.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-whole-tiramisu-serves-15_1747cd18-2bf2-4d6c-bc88-07350e3f9ad5"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-48230075-2077-4f80-9787-0c2493761823",
+      "heading": "Cookies",
+      "items": [
+        {
+          "name": "Assorted Italian Cookies, 7 oz",
+          "description": "",
+          "price": "$5.99",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-assorted-italian-cookies-7-oz_54927c82-1f17-433d-9577-d7d118cfd6e0"
+        },
+        {
+          "name": "Rainbow Layer Cookies, 7 oz.",
+          "description": "Green, Yellow, and Red Layer cake with a little jelly between each layer, covered in chocolate. An Italian classic!",
+          "price": "$6.29",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-rainbow-layer-cookies-7-oz_f7522b8c-eee1-4d14-b383-3e01411d211a"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-f38aa191-9500-4a88-a7b3-623f7dd3fd81",
+      "heading": "Cannoli Shells and Cream by the lb.",
+      "items": [
+        {
+          "name": "Mini Cannoli Shells",
+          "description": "Vaccaro’s “Mini” Cannoli shells. Sold individually. 2.5 inch",
+          "price": "$0.85",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-mini-cannoli-shells_af25041d-5b20-4516-bd8c-89c48586043a"
+        },
+        {
+          "name": "Large Cannoli Shells",
+          "description": "Vaccaro’s “Large” Cannoli shells. Sold individually. 5 inch",
+          "price": "$1.00",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-large-cannoli-shells_1c7185ba-1b66-4720-b1fa-874526f2a6d6"
+        },
+        {
+          "name": "1.5 lb Bag Cannoli Cream",
+          "description": "1.5 lb of Cannoli cream in a convenient piping bag. One bag will fill 18 mini shells or 9 large shells.",
+          "price": "$16.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-15-lb-bag-cannoli-cream_c017f337-109d-4b25-be69-594b02ed105d"
+        },
+        {
+          "name": "Cannoli Cream, by the lb.",
+          "description": "Half pint of cream will fill approximately 6 mini shells or 3 large shells.\r\nPint will fill approximately 12 mini shells or 6 large shells.",
+          "price": "$5.98+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-cannoli-cream-by-the-lb_1a037dbe-58e7-4df7-8fca-e76872ad6fd0"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-165b1c85-d134-48f3-a61d-047746f6c29d",
+      "heading": "Meatballs in Sauce",
+      "items": [
+        {
+          "name": "Meatball in Sauce",
+          "description": "Our delicious all beef meatballs in sauce. Sold individually. 1.5 oz each",
+          "price": "$1.65",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-meatball-in-sauce_911e46bd-8ae3-48c5-8454-41d6bbb1f7c6"
+        },
+        {
+          "name": "Dozen Meatballs in Sauce",
+          "description": "12 of our delicious all beef meatballs in sauce, 1.5 oz each",
+          "price": "$18.99",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-dozen-meatballs-in-sauce_28bad561-317f-41f6-8fe9-d5a0f9a61b75"
+        },
+        {
+          "name": "24 Mini Meatballs in Sauce",
+          "description": "The \"mini\" version our delicious all beef meatballs in sauce. Sold in 24 counts. 1/2 oz each",
+          "price": "$11.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-24-mini-meatballs-in-sauce_54767dac-a516-4a53-bf77-cb35ff18d04c"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-dd922016-8a52-4f58-b5cf-22b4010b8157",
+      "heading": "Italian Sausage",
+      "items": [
+        {
+          "name": "Cooked Italian Sausage in Sauce",
+          "description": "Ostrowski's of Bank Street Italian Sausage cooked in our homemade tomato sauce. Mix of hot and sweet sausage.",
+          "price": "$2.49",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-cooked-italian-sausage-in-sauce_25574229-0ad8-46f3-b58f-5f7832560bbc"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-88ef9662-8869-4375-88bb-3293f50f68fe",
+      "heading": "Pastore's Homemade Sauce",
+      "items": [
+        {
+          "name": "Pastore's Spaghetti Sauce, Pint",
+          "description": "Pastore's Homemade Spaghetti sauce (Pint 16oz) Simmered for hours flavored by our meatballs. (May contain traces of meat.)",
+          "price": "$4.49",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-pastores-spaghetti-sauce-pint_a8894624-d486-4e75-9bd5-1d48f7711449"
+        },
+        {
+          "name": "Pastore's Spaghetti Sauce, Quart",
+          "description": "Pastore's Homemade Spaghetti sauce (Quart 32oz) Simmered for hours flavored by our meatballs. (May contain traces of meat.)",
+          "price": "$8.49",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-pastores-spaghetti-sauce-quart_5f71393c-a1e6-43e8-a795-b65cea4ebe3e"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-609318dd-8312-4c7f-90ca-0ccd3db711dc",
+      "heading": "2 Person Servings",
+      "items": [
+        {
+          "name": "Dinner For Two SPECIAL",
+          "description": "Your choice of cold entree, salad, and dessert with a half loaf of bread! Just take home, heat, and eat!",
+          "price": "$28.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-dinner-for-two-special_9927b544-fd0b-44b5-8aa1-0f0096ff3d82"
+        },
+        {
+          "name": "Meat Lasagna (Beef)",
+          "description": "Our most popular Lasagna! 4 layers of pasta filled with provolone, mozzarella, Pecorino Romano, fresh ricotta, and ground beef, smothered in our homemade sauce. Sold cold in 2 person servings. Just take home, heat, and eat!",
+          "price": "$14.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-meat-lasagna-beef_3d2059d0-31ce-48a3-8c63-033a198c0c33"
+        },
+        {
+          "name": "Five Cheese Lasagna",
+          "description": "4 layers of pasta filled with provolone, mozzarella, Pecorino Romano, grated parmesan, fresh ricotta, and ground beef, smothered in our homemade sauce. Sold cold in 2 person servings. Just take home, heat, and eat!",
+          "price": "$14.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-five-cheese-lasagna_5d6698c8-0351-4057-9e4f-9f260ba88a4f"
+        },
+        {
+          "name": "Baked Ziti",
+          "description": "3 layers of ziti filled with provolone, mozzarella, Pecorino Romano, fresh ricotta, and ground beef, smothered in our homemade sauce. Sold cold in 2 person servings. Just take home, heat, and eat!",
+          "price": "$14.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-baked-ziti_e13226ae-af41-4d99-9d45-77b4c7912cc9"
+        },
+        {
+          "name": "Spinach & Cheese Lasagna",
+          "description": "Vellegia's Casa di Pasta's Spinach and Cheese Lasagna, with their homemade sauce and pasta, with layers of cheese and cooked spinach. Vegetarian. Served cold in 2 person servings. Just take home, heat and eat!",
+          "price": "$14.95",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-spinach-cheese-lasagna_c15ce17c-fefc-4eea-aee8-8e51931cfdf1"
+        }
+      ]
+    },
+    {
+      "id": "menuGroup-26c7f172-9059-4666-98b7-c4dfaffe7ed2",
+      "heading": "Family Servings",
+      "items": [
+        {
+          "name": "Meat Lasagna (Beef)",
+          "description": "Take home and bake trays for the whole family!  Refrigerated or frozen. Call to verify availability!",
+          "price": "$65.00+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-meat-lasagna-beef_ccbdcf77-24e4-4968-93e9-4327811906b0"
+        },
+        {
+          "name": "Five Cheese Lasagna",
+          "description": "Made in house! Take home and bake trays for the whole family!  Refrigerated or frozen. Call to verify availability!",
+          "price": "$65.00+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-five-cheese-lasagna_e89eed1d-bfa4-4a85-a3f3-3f5372b1ce82"
+        },
+        {
+          "name": "Baked Ziti",
+          "description": "Take home and bake trays for the whole family!  Refrigerated or frozen. Call to verify availability!",
+          "price": "$65.00+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-baked-ziti_be74cae7-1681-4c51-a63f-ac1191879814"
+        },
+        {
+          "name": "Spinach & Cheese Lasagna",
+          "description": "Vellegia's Casa di Pasta Spinach and Cheese Lasagna! Take home and bake trays for the whole family! Frozen. Call to verify availability!",
+          "price": "$65.00+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-spinach-cheese-lasagna_2f67d91c-502b-4784-a718-f7eb680d5fd4"
+        },
+        {
+          "name": "Eggplant Parmesan",
+          "description": "Take home and bake trays for the whole family! Frozen. Call to verify availability!",
+          "price": "$65.00+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-eggplant-parmesan_8bb43c3f-72bb-493a-9be7-e97ff0896511"
+        },
+        {
+          "name": "Stuffed Shells",
+          "description": "Vellegia's Casa di Pasta Stuffed Shells topped with homemade sauce! Take home and bake trays for the whole family!  Sold cold. Call to verify availability!",
+          "price": "$34.00+",
+          "url": "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-stuffed-shells_95f5efb4-fb44-4308-b76f-b7f40625e3e9"
+        }
+      ]
+    }
+  ]
+}

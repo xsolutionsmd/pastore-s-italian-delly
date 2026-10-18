@@ -1,0 +1,169 @@
+{
+  "schema": 2,
+  "toolkit": "xs-website 2.0 (2026-10-17)",
+  "name": "Pastore's Italian Delly",
+  "slug": "pastore-s-italian-delly",
+  "created": "2026-10-18T14:27:34.981763+00:00",
+  "repository": "xsolutionsmd/pastore-s-italian-delly",
+  "visibility": "public",
+  "url_key": "pastores",
+  "build_type": "landing",
+  "features": [],
+  "endpoint": "full",
+  "identity": {
+    "status": "confirmed",
+    "official_name": "Pastore's Italian Delly",
+    "address": "8646 Loch Raven Boulevard, Towson, MD 21286",
+    "public_phone": "410-825-5316",
+    "public_email": null,
+    "website": "https://www.pastoresdelly.com/",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pastore%27s+Italian+Delly+8646+Loch+Raven+Blvd",
+    "social": {
+      "instagram": "https://www.instagram.com/pastores_italian_delly/",
+      "facebook": "https://www.facebook.com/pages/Pastores-Italian-Delly/210096457207"
+    },
+    "evidence": [
+      {
+        "observed": "2026-10-18T14:27:50.380218+00:00",
+        "note": "Official website and linked Toast store independently match 8646 Loch Raven Blvd and 410-825-5316; Waze corroborates same address, phone and website. Observed 2026-10-18."
+      },
+      {
+        "observed": "2026-10-18T14:28:13.154271+00:00",
+        "note": "Independent Waze place ChIJrXRiVSQPyIkRY_M1JRC1uuo corroborates the official domain, phone 410-825-5316 and 8646 Loch Raven Blvd. https://www.waze.com/live-map/directions/us/md/towson/pastores-italian-delly?to=place.ChIJrXRiVSQPyIkRY_M1JRC1uuo"
+      }
+    ]
+  },
+  "environments": [
+    {
+      "name": "production",
+      "branch": "main",
+      "hostname": "pastores.xsolutionsmd.com",
+      "slug": "pastore-s-italian-delly"
+    },
+    {
+      "name": "derek-dev",
+      "branch": "derek-dev",
+      "hostname": "d-pastores.xsolutionsmd.com",
+      "slug": "pastore-s-italian-delly-derek-dev"
+    },
+    {
+      "name": "abdul-dev",
+      "branch": "abdul-dev",
+      "hostname": "a-pastores.xsolutionsmd.com",
+      "slug": "pastore-s-italian-delly-abdul-dev"
+    }
+  ],
+  "stages": {
+    "identity": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "done",
+      "recorded": "2026-10-18T14:34:22.205675+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Official site, live Toast and independent map identity inspected; nine sourced factual KB files plus full prepared-menu source data; catering/source conflicts preserved."
+      ]
+    },
+    "assets": {
+      "status": "done",
+      "recorded": "2026-10-18T14:53:02.223511+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": "node:delegated-task:command%3Amcp%3Adfb4922b-3fab-4660-ac9d-f6673906b9c9%3Adelegate-task%3Apastores-assets-20261018-r1",
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Accepted 51 originals and 15 shortlisted assets, exact 147-row mapping and documented missing/uncertain photo gaps. All required source families checked. xs_assets verify: zero problems."
+      ]
+    },
+    "spec": {
+      "status": "done",
+      "recorded": "2026-10-18T14:53:02.567243+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "research": "2026-10-18T14:34:22.205675+00:00",
+        "assets": "2026-10-18T14:53:02.223511+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "kb/features.md: landing build, five separate pages and existing Toast/telephone/directions endpoints; no custom ordering or inquiry backend."
+      ]
+    },
+    "template": {
+      "status": "done",
+      "recorded": "2026-10-18T14:53:02.732210+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "spec": "2026-10-18T14:53:02.567243+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Astra inspected mamannyc.com home, catering, Soho menu and navigation at desktop and 390px mobile. kb/design-brief.md and private/runs/template-selection capture exact layout, type, menu and omissions."
+      ]
+    },
+    "content": {
+      "status": "pending"
+    },
+    "reconstruct": {
+      "status": "pending"
+    },
+    "backend": {
+      "status": "pending"
+    },
+    "refine": {
+      "status": "pending"
+    },
+    "build": {
+      "status": "pending"
+    },
+    "first-publish": {
+      "status": "pending"
+    },
+    "first-live-slack": {
+      "status": "pending"
+    },
+    "infra": {
+      "status": "pending"
+    },
+    "review": {
+      "status": "pending"
+    },
+    "fixes": {
+      "status": "pending"
+    },
+    "recheck": {
+      "status": "pending"
+    },
+    "deploy": {
+      "status": "pending"
+    },
+    "delivery": {
+      "status": "pending"
+    },
+    "final-handoff": {
+      "status": "pending"
+    }
+  },
+  "updated": "2026-10-18T14:53:02.736625+00:00"
+}
