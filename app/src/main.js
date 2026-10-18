@@ -5,7 +5,16 @@ const dialog=document.querySelector('#site-navigation');
 const close=document.querySelector('.nav-close');
 if(typeof dialog.showModal==='function'){
  trigger.hidden=false;document.querySelector('.no-script-nav').hidden=true;
- trigger.addEventListener('click',()=>{dialog.showModal();trigger.setAttribute('aria-expanded','true');document.documentElement.classList.add('navigation-open');close.focus();});
+ let readingPosition={left:0,top:0};
+ const restoreReadingPosition=()=>window.scrollTo({...readingPosition,behavior:'instant'});
+ trigger.addEventListener('click',()=>{
+  readingPosition={left:window.scrollX,top:window.scrollY};
+  document.documentElement.classList.add('navigation-open');
+  dialog.showModal();dialog.scrollTop=0;
+  trigger.setAttribute('aria-expanded','true');close.focus({preventScroll:true});
+  // Native dialog focus can move the document, even though the dialog is fixed.
+  restoreReadingPosition();
+ });
  close.addEventListener('click',()=>dialog.close());
  dialog.addEventListener('keydown',event=>{
   if(event.key!=='Tab')return;
@@ -15,7 +24,7 @@ if(typeof dialog.showModal==='function'){
   else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}
  });
  dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
- dialog.addEventListener('close',()=>{document.documentElement.classList.remove('navigation-open');trigger.setAttribute('aria-expanded','false');trigger.focus({preventScroll:true});});
+ dialog.addEventListener('close',()=>{document.documentElement.classList.remove('navigation-open');trigger.setAttribute('aria-expanded','false');trigger.focus({preventScroll:true});restoreReadingPosition();});
  addEventListener('pageshow',()=>{if(dialog.open)dialog.close();});
 }
 const controls=document.querySelector('.menu-controls');

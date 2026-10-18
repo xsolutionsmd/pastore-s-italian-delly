@@ -14,7 +14,7 @@ if(existsSync(authority)){
 }
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 assert.equal(menu.groups.length,17);assert.equal(menu.groups.reduce((n,g)=>n+g.items.length,0),147);
-const paths=['index.html','menu/index.html','catering/index.html','our-story/index.html','visit/index.html'],titles=new Set();
+const paths=['index.html','menu/index.html','catering/index.html','our-story/index.html','visit/index.html','404.html'],titles=new Set();
 for(const path of paths){
  const html=readFileSync(join(app,'dist',path),'utf8');
  assert.equal((html.match(/<h1\b/g)||[]).length,1,`${path}: one h1`);
@@ -23,7 +23,11 @@ for(const path of paths){
  assert(/<meta name="description" content="[^"]{60,}"/.test(html));titles.add(html.match(/<title>(.*?)<\/title>/)[1]);
  for(const match of html.matchAll(/(?:src|href)="(\/[^"#?]*)"/g)){const url=match[1];assert(existsSync(resolve(app,'dist',`.${url}`,url.endsWith('/')?'index.html':'')),`${path}: missing ${url}`);}
 }
-assert.equal(titles.size,5,'Distinct page titles');
+assert.equal(titles.size,6,'Distinct page titles, including the error document');
+const notFound=readFileSync(join(app,'dist/404.html'),'utf8');
+assert(notFound.includes('<h1>Page not found</h1>'));
+assert(notFound.includes('href="/">Back to Home</a>'));
+assert(notFound.includes('href="/menu/">Explore the Menu</a>'));
 const html=readFileSync(join(app,'dist/menu/index.html'),'utf8');
 assert.equal((html.match(/data-group-id=/g)||[]).length,17);assert.equal((html.match(/data-item-id=/g)||[]).length,147);
 const ids=new Set();
