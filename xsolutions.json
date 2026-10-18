@@ -193,10 +193,10 @@
     },
     "delivery": {
       "status": "done",
-      "recorded": "2026-10-18T18:22:29.647424+00:00",
+      "recorded": "2026-10-18T19:21:09.126274+00:00",
       "workflow_version": 2,
       "owner": "sol-high",
-      "task_id": "node:delegated-task:command%3Amcp%3Adfb4922b-3fab-4660-ac9d-f6673906b9c9%3Adelegate-task%3Apastores-final-20261018-r1",
+      "task_id": "node:delegated-task:command%3Amcp%3A2b4c4824-cfd1-49a9-a8b8-4c21e1afb36d%3Adelegate-task%3Apastores-normal-final-replacement-20261018-r1",
       "prerequisites": {
         "assets": "2026-10-18T14:53:02.223511+00:00"
       },
@@ -204,12 +204,31 @@
       "quota_evidence": null,
       "quota_exhausted": false,
       "evidence": [
-        "Current canonical gallery-inclusive ZIP delivered once as explicit replacement in original first-live thread; persisted file F0CA826UVLH and message p1792347597050559 read after reload, browser-downloaded bytes14380277 SHA73f8bfd2 match; XA delivery receipt and slack-media-final.png. Earlier ZIP+sidecar retained as superseded history."
-      ]
+        "Current canonical gallery-inclusive ZIP delivered once as explicit replacement in original first-live thread; persisted file F0CA826UVLH and message p1792347597050559 read after reload, browser-downloaded bytes14380277 SHA73f8bfd2 match; XA delivery receipt and slack-media-final.png. Earlier ZIP+sidecar retained as superseded history.",
+        "Replacement revalidated the canonical NORMAL-phase package and persisted Slack evidence without resend. Separate photo research has since expanded the private manifest; current-library package evaluation reports pending and is not claimed delivered. normal-final-resume-media.json."
+      ],
+      "details": {
+        "checked_at": "2026-10-18T19:20:04.729738+00:00",
+        "task_id": "node:delegated-task:command%3Amcp%3A2b4c4824-cfd1-49a9-a8b8-4c21e1afb36d%3Adelegate-task%3Apastores-normal-final-replacement-20261018-r1",
+        "package": "pastore-s-italian-delly-assets-7669cd0fae4704e1.zip",
+        "bytes": 14380277,
+        "sha256": "73f8bfd2eef083c1e4cf0a3d802e08c9c40b94d890782eb9ad3d24d1a1bdad16",
+        "crc_ok": true,
+        "embedded_gallery": true,
+        "persisted_successful_evidence": "slack-media-delivery.json; media-package-final-preflight.json; slack-media-final.png",
+        "permalink": "https://sidehustle2026.slack.com/archives/C0C0J6RB8KT/p1792347597050559",
+        "file_id": "F0CA826UVLH",
+        "verified_after_reload": true,
+        "downloaded_size_and_hash_match": true,
+        "resend": false,
+        "scope": "Revalidated canonical normal-phase package and persisted successful Slack evidence. Separate ongoing photo research is outside this normal handoff."
+      },
+      "scope": "canonical-normal-phase-package",
+      "expanded_library_delivered": false
     },
     "final-handoff": {
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T18:22:29.673931+00:00"
+  "updated": "2026-10-18T19:21:09.126274+00:00"
 }

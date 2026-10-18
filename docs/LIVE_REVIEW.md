@@ -43,8 +43,10 @@ an absent local branch ref corrected with remote heads, and an incomplete captur
 after a restored override corrected in a fresh tab. None is silently called a pass.
 
 All three actionable findings are resolved. This is dated product acceptance,
-separate from current availability during the later shared-host incident. Final
-availability verification and documentation publication remain subject to the
-release hold. No physical Safari/Android review, full screen-reader audit, fresh OS
+separate from current availability during the later shared-host incident. The final owner verified all three company environments at 19:18 UTC: home,
+health and uncached revision passed at the accepted product revision. Derek's direct
+resumption supersedes the abandoned advisory release wait; actual locks, health
+failures and protected checks remain binding. No app/runtime changes require a
+new product review. No physical Safari/Android review, full screen-reader audit, fresh OS
 preference emulation or blanket clean-console pass is claimed. Earlier transient
 access failures and their unknown cause remain documented.

@@ -2,12 +2,15 @@
 
 ## Current state ? 18 October 2026
 
-The normal five-page website's dated product recheck is accepted. Final delivery
-is still in progress: documentation publication and current availability verification
-require an explicit dispatcher release grant. Earlier successful checks do not
-establish permanent recovery from the intermittent shared-host issue. Do not push,
-merge, activate builds, restart services or change shared hosting under the hold.
-The dispatcher owns shared diagnosis and recovery.
+The normal five-page website's product recheck is accepted. Derek's direct
+18 October resumption supersedes the abandoned advisory dispatcher-grant wait.
+All three environments passed the bounded home, health and uncached-version
+checks at 19:18 UTC, serving the revision below. This is current evidence for this
+handoff, not a permanent recovery claim for the earlier intermittent host issue.
+Application/runtime source remains unchanged. Final documentation publication
+uses the existing protected PR/CI path and authorized initial three-environment
+sync. Actual health failures, technical deployment locks and required checks bind.
+No shared-host repair, restart or broad probing is part of this task.
 
 | Environment | URL | Last verified source revision |
 |---|---|---|
@@ -22,9 +25,8 @@ released corrections. Both merged. Corrective product commit:
 `a66657653293a88608577280cf673e00e5ccc661`; merged revision is the table above.
 All six workflows for that merge completed successfully: production 39150006316,
 Derek 39150041624, Abdul 39150041225, CI 39150006278/39150041549/39150041277.
-Independent all-three HTTPS/source parity is dated 17:44:25 UTC. The dispatcher's
-bounded production version check passed at 17:53:37 UTC; the shared failure's
-underlying cause remains unknown. No fresh sweep is implied.
+Independent all-three HTTPS/source parity is dated 17:44:25 UTC. The earlier bounded production version check passed at 17:53:37 UTC; the shared failure's underlying cause remains unknown. The current company-only check above
+supersedes the dated availability snapshot.
 
 ## Accepted product and evidence
 
@@ -72,12 +74,12 @@ delivery require persisted receipts. Final acceptance belongs to the coordinator
 Media delivery is verified in the original first-live thread:
 https://sidehustle2026.slack.com/archives/C0C0J6RB8KT/p1792347597050559.
 The current ZIP includes all 51 originals, provenance and the readable menu gallery.
-Obtain the named docs-release batch grant, publish through
-a protected Derek-to-main PR, synchronize the initial three environments preserving
-their configs, then verify terminal CI and scoped live revision/source parity.
-Send/read back the final Slack thread reply after final verification. Report the
-batch settled to the dispatcher. If the grant remains absent, stop with a precise
-pending-grant handoff and leave the final stage incomplete.
+Final-owner work revalidates that existing delivery, publishes these documentation
+corrections through protected CI and verifies the resulting environment revisions.
+The final normal URL reply goes in the existing first-live thread with the directory,
+preview and repository links. Persisted send/readback and exact release evidence
+remain in private final-handoff records for coordinator inspection and acceptance.
+No media resend or directory edit is needed for unchanged URLs.
 
 The LAST Derek-only menu-photo variation is separate work after coordinator
 acceptance of normal final handoff. It remains pending. Never propagate it to main
@@ -92,7 +94,7 @@ were removed; owned previews/tabs were closed. Retain canonical originals,
 provenance and accepted evidence for delivery/continuity. Keep app dependencies,
 dist, three contact sheets and the recorded 11 own cache candidates for the imminent
 LAST Derek photo build; recheck then, preserving shared dependencies/tool homes.
-No ad-hoc server cleanup under the hold. The obsolete bootstrap image/rollback set
+No ad-hoc server cleanup is included in this task. The obsolete bootstrap image/rollback set
 was retired after managed recovery verification; bootstrap files are recoverable
 in server Trash. The relative `.env` symlink targets current `release.env`.
 Managed current/previous recovery images follow the existing retention policy.
