@@ -29,12 +29,18 @@ if(controls){
   }
   select.value=id;if(updateHistory){history.pushState(null,'',`#${id}`);panels[current].scrollIntoView({block:'start',behavior:reduced.matches?'instant':'smooth'});}if(focus)tabs[current].focus({preventScroll:true});
   const scroller=document.querySelector('.category-tabs');
-  const reveal=()=>{if(scroller.offsetWidth&&tabs[current].getAttribute('aria-selected')==='true')scroller.scrollTo({left:tabs[current].offsetLeft-scroller.offsetLeft-24,behavior:reduced.matches||focus?'instant':'smooth'});};
+  const reveal=()=>{if(scroller.offsetWidth&&tabs[current].getAttribute('aria-selected')==='true')scroller.scrollTo({left:tabs[current].offsetLeft-scroller.offsetLeft-48,behavior:reduced.matches||focus?'instant':'smooth'});};
   reveal();
   // A quick selection can precede font completion and change the strip's widths.
   document.fonts.ready.then(()=>requestAnimationFrame(reveal));
  }
  controls.hidden=false;
+ // Fade the strip's edges only while more categories are scrolled out of view.
+ const strip=document.querySelector('.category-tabs');
+ const edges=()=>{strip.classList.toggle('more-start',strip.scrollLeft>2);strip.classList.toggle('more-end',strip.scrollLeft+strip.clientWidth<strip.scrollWidth-2);};
+ strip.addEventListener('scroll',edges,{passive:true});
+ if(typeof ResizeObserver==='function')new ResizeObserver(edges).observe(strip);
+ document.fonts.ready.then(edges);
  if(typeof ResizeObserver==='function')new ResizeObserver(()=>document.documentElement.style.setProperty('--menu-controls-height',`${controls.getBoundingClientRect().height}px`)).observe(controls);
  for(const[i,tab]of tabs.entries()){
   tab.addEventListener('click',()=>activate(panels[i].id,{updateHistory:true}));

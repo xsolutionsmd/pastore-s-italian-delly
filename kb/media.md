@@ -57,12 +57,14 @@ The full library is in the private company folder (`private/assets/originals/`, 
 | app/public/images/italian-cold-cut.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-italian-cold-cut_25834776-b473-4c8a-8bb7-b121cb665fe0 | business-official |
 | app/public/images/muffalettini.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-the-muffalettini_85f384d7-e331-4f16-b82e-dea270e25953 | business-official |
 | app/public/images/porchetta-verde.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-the-porchetta-verde_b00952a0-3a6e-40a9-b407-ec29f56ce73f | business-official |
+| app/public/images/turkey-club.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-turkey-club_d3a98cc4-0249-4b1d-bf64-9b9cc46aedc1 | business-official |
 | app/public/images/cannoli.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-cannoli_1bab0e8e-999b-4af9-95dd-e79f231582c5 | business-official |
 | app/public/images/pastore-logo.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd | business-official |
 | app/public/images/family-shop-1926.webp | image | https://www.pastoresdelly.com/about/ | business-official |
 | app/public/images/delly-counter.webp | image | https://www.pastoresdelly.com/about/ | business-official |
 | app/public/images/burrata-bella.webp | image | https://www.instagram.com/pastores_italian_delly/p/DbyH53CIDks/ | business-official |
 | app/public/images/loch-raven-shop.webp | image | https://www.facebook.com/photo.php?fbid=1686355750164088&set=pb.100063690365017.-2207520000&type=3 | business-official |
+| app/public/images/baked-ziti-family.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-baked-ziti_be74cae7-1681-4c51-a63f-ac1191879814 | business-official |
 
 All collected media of the business may be used in every environment, including production,
 because this site is built for the business. The rights field records provenance only; it does not block use.
