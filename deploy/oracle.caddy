@@ -1,0 +1,4 @@
+pastores.xsolutionsmd.com {
+    encode zstd gzip
+    reverse_proxy pastore-s-italian-delly:8080
+}

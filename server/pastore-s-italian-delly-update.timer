@@ -1,0 +1,11 @@
+[Unit]
+Description=Check pastore-s-italian-delly approved releases
+
+[Timer]
+OnBootSec=45s
+OnUnitInactiveSec=60s
+AccuracySec=5s
+Unit=pastore-s-italian-delly-update.service
+
+[Install]
+WantedBy=timers.target

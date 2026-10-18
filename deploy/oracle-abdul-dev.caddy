@@ -1,0 +1,3 @@
+a-pastores.xsolutionsmd.com {
+    reverse_proxy pastore-s-italian-delly-abdul-dev:8080
+}

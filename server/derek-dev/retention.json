@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "pastore-s-italian-delly-derek-dev",
+  "project": "pastore-s-italian-delly-derek-dev",
+  "source": "https://github.com/xsolutionsmd/pastore-s-italian-delly",
+  "repositories": {
+    "image": "ghcr.io/xsolutionsmd/pastore-s-italian-delly-derek-dev"
+  },
+  "state_dir": "/var/lib/pastore-s-italian-delly-derek-dev-deploy",
+  "current": "current.json",
+  "recovery_files": [
+    "previous.env",
+    "previous-current.json"
+  ],
+  "pending_globs": [
+    "transaction",
+    "transaction.json",
+    "transaction.json.new",
+    "check.*",
+    "check-*"
+  ],
+  "keep_previous": 2,
+  "minimum_age_hours": 24
+}
