@@ -98,3 +98,11 @@ No ad-hoc server cleanup is included in this task. The obsolete bootstrap image/
 was retired after managed recovery verification; bootstrap files are recoverable
 in server Trash. The relative `.env` symlink targets current `release.env`.
 Managed current/previous recovery images follow the existing retention policy.
+
+## Derek-only menu photos — 18 October 2026
+
+Normal delivery is accepted; protected PR3 synchronized the normal site at fa503f35914be145ce87d20c28e58967d0054c01. This branch intentionally adds authentic menu-item photos. Do not merge this product variation into main or abdul-dev; both retain the accepted text-only item menu.
+
+All 147 Toast rows and17 categories remain intact.72 rows have supported photos, derived from49 original food images into50 WebP files (1,171,738 bytes total).75 rows remain without a sufficiently supported photo. Shared bread/portion variants and inferred matches are documented; photos do not prove exact ingredients or dietary suitability. Visible notes identify material serving variations. Six new originals came from the business Instagram and matching Yelp location. Private provenance and the delivered147-row gallery record source URLs, confidence and reasons. Public mapping: app/src/menu-photos.json; final dinner crop is tighter than the library's suggested crop to exclude the beverage edge.
+
+The expanded57-original library was delivered once and verified at https://sidehustle2026.slack.com/archives/C0C0J6RB8KT/p1792352055837829. Previous normal package remains historical. Local source/content and container checks passed; desktop1280 and mobile390/320 renders inspected, including narrow text enlargement. Live publication and independent focused review are the next acceptance gates; do not claim this variation finished before those records are added.

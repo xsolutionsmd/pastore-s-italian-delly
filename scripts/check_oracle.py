@@ -31,6 +31,8 @@ def check_http(base, revision):
     assert 'no-store' in headers.get('Cache-Control', '')
     assert get('/health')[0].strip() == b'ok'
     assets, titles = set(), set()
+    photos = json.loads((ROOT/'app/src/menu-photos.json').read_text(encoding='utf-8'))
+    assert len(photos) == 72
     for route in ROUTES:
         body = get(route)[0].decode()
         assert len(re.findall(r'<h1\b', body)) == 1, route
@@ -44,7 +46,12 @@ def check_http(base, revision):
             assert body.count('data-group-id=') == 17
             assert body.count('data-item-id=') == 147
             menu = body[body.index('class="menu-content"'):body.index('</main>')]
-            assert not re.search(r'<img|<picture', menu, re.I), 'Text-only menu required'
+            rows = re.findall(r'<article class="menu-item[^"]*" data-item-id="([^"]+)"(.*?)</article>', menu, re.S)
+            assert len(rows) == 147
+            for item_id, row in rows:
+                pictures = re.findall(r'<img\b[^>]*src="([^"]+)"', row)
+                assert pictures == ([photos[item_id]['src']] if item_id in photos else []), item_id
+            assert sum(bool(re.search(r'<img\b', row)) for _, row in rows) == len(photos)
     assert len(titles) == 5
     for asset in sorted(assets):
         assert get(asset)[0], asset
@@ -66,7 +73,7 @@ def check_http(base, revision):
     else:
         raise AssertionError('Missing asset must return 404')
     return {'base': base, 'revision': revision, 'routes': list(ROUTES), 'assets': len(assets),
-            'health': True, 'noindex': True, 'menu_rows': 147, 'menu_groups': 17, 'menu_text_only': True, 'branded_404': True}
+            'health': True, 'noindex': True, 'menu_rows': 147, 'menu_groups': 17, 'menu_text_only': False, 'menu_photo_rows': len(photos), 'unique_menu_photos': len({p['src'] for p in photos.values()}), 'branded_404': True}
 
 def check_image(image, compose_path, environment, revision):
     identity = 'pastores-infra-check-' + uuid.uuid4().hex[:10]

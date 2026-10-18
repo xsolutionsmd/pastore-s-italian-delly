@@ -36,6 +36,17 @@ for(const group of menu.groups){assert(html.includes(`data-group-id="${group.id}
  const id=item.url.split('_').at(-1);const row=html.match(new RegExp(`data-item-id="${id}"[\\s\\S]*?</article>`))[0];
  assert(row.includes(`<span class="price">${esc(item.price)}</span>`));if(item.name==='Five Cheese Lasagna')assert(!/beef|vegetarian/i.test(row));
 }}
-assert(!/<img|<picture/i.test(html.slice(html.indexOf('class="menu-content"'),html.indexOf('</main>'))),'Menu is text-only');
+const photos=JSON.parse(readFileSync(join(app,'src/menu-photos.json'),'utf8'));
+assert.equal(Object.keys(photos).length,72,'Accepted supported photo-row count');
+const renderedRows=[...html.matchAll(/<article class="menu-item[^"]*" data-item-id="([^"]+)"([\s\S]*?)<\/article>/g)];
+assert.equal(renderedRows.length,147);
+let imageRows=0;
+for(const [,id,body] of renderedRows){
+ const images=[...body.matchAll(/<img\b[^>]*src="([^"]+)"/g)],photo=photos[id];
+ assert.equal(images.length,photo?1:0,`Photo count for ${id}`);
+ if(photo){imageRows++;assert.equal(images[0][1],photo.src);assert(photo.width>0&&photo.height>0);assert(photo.alt);assert(['confirmed','likely'].includes(photo.confidence));}
+}
+assert.equal(imageRows,72);assert.equal(new Set(Object.values(photos).map(p=>p.src)).size,50);
+assert.equal(new Set(Object.values(photos).map(p=>p.sourceSha256)).size,49);
 const catering=readFileSync(join(app,'dist/catering/index.html'),'utf8');for(const fact of ['$10.95','$13.95','10-person minimum','48-hour notice','$25 advance payment'])assert(catering.includes(fact));
-console.log('Content checks passed: five direct pages, 147 exact rows / 17 groups, prices, links, noindex, catering terms, text-only menu.');
+console.log('Content checks passed: five direct pages, 147 exact rows / 17 groups, prices, links, noindex, catering terms, 72 supported photo rows, 75 honest gaps.');
