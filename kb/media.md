@@ -52,7 +52,17 @@ The full library is in the private company folder (`private/assets/originals/`, 
 
 ## Used on the website
 
-None selected yet.
+| Site file | Type | Source page | Rights |
+|---|---|---|---|
+| app/public/images/italian-cold-cut.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-italian-cold-cut_25834776-b473-4c8a-8bb7-b121cb665fe0 | business-official |
+| app/public/images/muffalettini.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-the-muffalettini_85f384d7-e331-4f16-b82e-dea270e25953 | business-official |
+| app/public/images/porchetta-verde.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-the-porchetta-verde_b00952a0-3a6e-40a9-b407-ec29f56ce73f | business-official |
+| app/public/images/cannoli.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd/item-cannoli_1bab0e8e-999b-4af9-95dd-e79f231582c5 | business-official |
+| app/public/images/pastore-logo.webp | image | https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd | business-official |
+| app/public/images/family-shop-1926.webp | image | https://www.pastoresdelly.com/about/ | business-official |
+| app/public/images/delly-counter.webp | image | https://www.pastoresdelly.com/about/ | business-official |
+| app/public/images/burrata-bella.webp | image | https://www.instagram.com/pastores_italian_delly/p/DbyH53CIDks/ | business-official |
+| app/public/images/loch-raven-shop.webp | image | https://www.facebook.com/photo.php?fbid=1686355750164088&set=pb.100063690365017.-2207520000&type=3 | business-official |
 
 All collected media of the business may be used in every environment, including production,
 because this site is built for the business. The rights field records provenance only; it does not block use.
@@ -60,13 +70,3 @@ Derek confirms owner permission for the gathered business library across sources
 Do not ask again per file/source/environment or treat old reference-only/public-unverified/permission-pending notes as approval gates.
 Preserve attribution, choose suitable real business media, and pass this standing confirmation to every delegated agent.
 Prefer the business's own originals and the largest, best renditions.
-
-## Bounded asset acceptance, 2026-10-18
-
-Current planned menu: 147 rows / 17 groups / 98 distinct dishes or component products. Row outcomes: {'matched': 50, 'missing-photo': 91, 'uncertain': 6}. Distinct-dish outcomes: {'matched': 38, 'missing-photo': 58, 'uncertain': 2}.
-
-The private canonical menu index is `private/assets/menu-items.json`; `menu-items.csv` is derived from it. Every planned source row is represented with exact IDs, evidence, variant limits and gaps. All nine required families plus Toast were checked; six sources are bounded partial and four delivery listings remain unverified after focused search.
-
-The library has authentic full-size food, branding, exterior and heritage candidates. The Gonzo original is only 250x363; use as a small tile. Venice/Rialto artwork is not a storefront; the website counter photograph is an interior. Lasagna recipe identification is uncertain because two labeled recipes use nearly identical mirrored imagery. Cannoli-shell packages cannot stand for filled cannoli.
-
-Rendered menu count is pending. The frontend owner must copy selected originals into production assets, mark site paths and verify actual rendering; a private archive alone is not completion. Slack packaging/delivery is deferred under this task.

@@ -1,0 +1,13 @@
+# Frontend reconstruction
+
+Vite static multi-page site: `/`, `/menu/`, `/catering/`, `/our-story/`, `/visit/`. Existing Docker/runtime/API contracts remain unchanged.
+
+From `app/`, run `npm ci`, then `npm run dev` (8080), `npm run build`, or `npm run check`. Dev/build regenerate pages from `scripts/generate.mjs`; edit that source rather than only generated HTML. `src/main.js` enhances navigation/categories; content has a readable no-JavaScript fallback. `src/styles.css` owns the two-family responsive design and reduced-motion rules. `vite.config.mjs` supplies five production entries. The kit's injected dev configuration remains usable because Vite serves actual nested HTML files.
+
+`src/menu.json` preserves all 147 accepted Toast row names/prices/URLs and 17 group IDs. It omits contradictory Five Cheese Lasagna ingredients and adds no inferred dietary labels. Update the accepted KB authority and public snapshot together when source evidence changes. The source-checkout content check reconciles these independently; runtime builds intentionally omit `kb/` and check the snapshot against built HTML.
+
+`xs-check.json` lists required phone, Toast, directions, holiday and page links. All runtime images/fonts are local; no external runtime resources are allowed. Photos are resized WebP derivatives; the badge only loses empty transparent padding. Font licenses ship alongside files. The unused starter favicon is removed. All environments remain noindex. Canonical/social-image URLs wait for a verified hosting policy.
+
+Validation 18 October 2026: production build and static/content checkers pass. T3 inspected built pages at 1440×1000, 390×844 and 320×844, including lower sections, real photos/branding, prices/terms, hours, footer, direct URLs, category hashes/history, all 17 groups and keyboard controls. All five pages pass 200% typography checks at both phone widths, including control-container bounds and native select-label width. Initial reflow, hours, mobile heading spacing and dialog Tab wrapping were repaired/rechecked. Screenshots and expected/observed cases are retained privately by the coordinator.
+
+Limits: automatic review rejected dedicated REA startup before execution (`rejected: blocked by policy`); no REA observation completed. T3 exposes color-scheme but not reduced-motion emulation; reduced-motion CSS/JS is source-checked, not an OS-emulated result. CTA hrefs match accepted sources; no order/call/message was submitted. Container health/version, hosting, refinement and release are separate coordinator checks. See [the blueprint](../kb/template-blueprint.md) for reference observations, adaptations and unresolved evidence.

@@ -1,0 +1,10 @@
+{
+  "requiredLinks": [
+    "https://order.toasttab.com/online/pastores-italian-delly-8646-loch-raven-blvd",
+    "tel:+14108255316",
+    "https://www.google.com/maps/dir/?api=1&destination=8646+Loch+Raven+Boulevard+Towson+MD+21286",
+    "https://pastoresdelly.com/about/hours.php",
+    "/", "/menu/", "/catering/", "/our-story/", "/visit/"
+  ],
+  "allowedExternalResources": []
+}

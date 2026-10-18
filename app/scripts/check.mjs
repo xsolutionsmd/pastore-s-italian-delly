@@ -57,7 +57,8 @@ const resource = value => {
 const cssResources = text => {
   for (const m of text.matchAll(/url\(\s*(['"]?)(.*?)\1\s*\)|@import\s+['"]([^'"]+)['"]/gi)) resource(m[2] ?? m[3]);
 };
-const banned = [/\$\s?\d/, /\b\d(?:\.\d)?\s*[- ]?stars?\b/i, /testimonial/i, /\bpercent\b|\d+\s*%/i, /years? of experience/i];
+// Sourced restaurant prices are reconciled by check-content.mjs. Retain the other claim guards.
+const banned = [/\b\d(?:\.\d)?\s*[- ]?stars?\b/i, /testimonial/i, /\bpercent\b|\d+\s*%/i, /years? of experience/i];
 for (const name of files) {
   if (!/\.(html|css|[cm]?js)$/i.test(name)) continue;
   const source = readFileSync(join(dist, name), 'utf8');
